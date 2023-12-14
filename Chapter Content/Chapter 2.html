@@ -1,0 +1,633 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Chapter 2: Safety &#8212; Gas Measurement For Technicians</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Chapter 3: The Chemistry of Gas Measurement" href="Chapter%203.html" />
+    <link rel="prev" title="Chapter 1: How the Gas Industry Works" href="Chapter%201.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/gas-measurement-logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Gas Measurement For Technicians</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Welcome to Gas Measurement for Technicians
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%201.html">
+   Chapter 1: How the Gas Industry Works
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Chapter 2: Safety
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%203.html">
+   Chapter 3: The Chemistry of Gas Measurement
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%204.html">
+   Chapter 4: The Basic Math of Gas Measurement
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%205.html">
+   Chapter 5: Gas Quality
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%206.html">
+   Chapter 6: Real Gases
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%207.html">
+   Chapter 7: Instrumentation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%208.html">
+   Chapter 8: Meters
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Appendix/Appendix.html">
+   Appendix
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../References/References.html">
+   References
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Appendix/Author.html">
+   About the Author
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/executablebooks/jupyter-book"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FChapter Content/Chapter 2.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../_sources/Chapter Content/Chapter 2.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#organizations-involved-with-safety">
+   Organizations Involved with Safety
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#personal-protective-equipment-ppe">
+   Personal Protective Equipment (PPE)
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#safety-glasses">
+     Safety Glasses
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#safety-toe-work-shoes">
+     Safety Toe Work Shoes
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#head-protection">
+     Head Protection
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#flame-resistant-clothing-fr">
+     Flame Resistant Clothing (FR)
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#hearing-protection">
+     Hearing Protection
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#combustible-gas-indicators-cgis">
+     Combustible Gas Indicators (CGIs)
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#questions">
+   Questions
+  </a>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Chapter 2: Safety</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#organizations-involved-with-safety">
+   Organizations Involved with Safety
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#personal-protective-equipment-ppe">
+   Personal Protective Equipment (PPE)
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#safety-glasses">
+     Safety Glasses
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#safety-toe-work-shoes">
+     Safety Toe Work Shoes
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#head-protection">
+     Head Protection
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#flame-resistant-clothing-fr">
+     Flame Resistant Clothing (FR)
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#hearing-protection">
+     Hearing Protection
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#combustible-gas-indicators-cgis">
+     Combustible Gas Indicators (CGIs)
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#questions">
+   Questions
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="chapter-2-safety">
+<h1>Chapter 2: Safety<a class="headerlink" href="#chapter-2-safety" title="Permalink to this headline">#</a></h1>
+<p>Process safety is a collective effort that involves everyone in the industry. I encourage you to embrace a safety-first mindset, prioritize continuous learning, and actively participate in safety training training going forward. However, since the audience of this book is predominantly focused on those who either are still studying to be in the industry or have just started their careers in the industry, I wanted to include a supplemental chapter on the critical aspects of safety that everyone should have a working knowledge of.  This chapter is not comprehensive of all the safety information one should have, but acts as a starting point for personal safety, focusing on the pieces of personal protective equipment (PPE) that a technician should have with them at all times, but first, we will talk about some of the critical organizations involved with safety.</p>
+<section id="organizations-involved-with-safety">
+<h2>Organizations Involved with Safety<a class="headerlink" href="#organizations-involved-with-safety" title="Permalink to this headline">#</a></h2>
+<p>Adherence to standards from organizations helps promote safety across numerous industries and applications. Technicians should be familiar with relevant standards in their workplace and ensure equipment, materials and operations meet specifications.  This section will briefly mention four organizations (OSHA, ANSI, ASME, ASTM, and NFPA) and their roles in safety.</p>
+<p>The Occupational Safety and Health Administration (OSHA) is a federal agency that oversees workplace safety and health regulations in the United States. OSHA develops and enforces standards that aim to protect workers from hazards and eliminate work-related illnesses and injuries. For example, OSHA has regulations around hazardous energy control (lockout/tagout), confined space entry, respiratory protection, and fall protection. OSHA conducts inspections, issues citations for violations, and provides compliance assistance to help employers meet standards.</p>
+<p>The American National Standards Institute (ANSI) is a private, non-profit organization that coordinates the development of voluntary consensus standards in the United States. ANSI-accredited standards development organizations like ASME and ASTM (referred to next) follow ANSI principles and procedures when creating their standards. Adoption of ANSI standards is voluntary unless adopted into law by a regulatory agency like OSHA. Many ANSI standards relate to safety in areas like personal protective equipment, machines, and construction.</p>
+<p>The American Society of Mechanical Engineers (ASME) is another prominent organization that plays a significant role in the natural gas industry, specifically in the development and maintenance of codes and standards related to mechanical engineering. ASME codes govern the design, fabrication, installation, and inspection of pressure vessels, piping systems, and related components used in natural gas infrastructure.</p>
+<p>The American Society for Testing and Materials (ASTM) is an organization that develops and publishes voluntary consensus standards for a wide range of materials, products, systems, and services. In the natural gas industry, ASTM standards are crucial for ensuring the quality and safety of materials and equipment used in various processes. ASTM standards cover aspects such as material specifications, testing methods, and performance criteria for components like valves, fittings, piping, and measurement equipment. Following ASTM standards enables manufacturers, suppliers, and operators in the natural gas industry to ensure that their products meet the required safety and performance criteria.</p>
+<p>The National Fire Protection Association (NFPA) is an international nonprofit organization that develops and publishes consensus codes and standards focused on fire, electrical, and other hazards. The NFPA’s research, codes, and standards help drive the design, testing, and proper use of flame resistant garments.</p>
+<p>Each organization play indispensable roles in promoting safety and standardization within the natural gas industry. Their contributions in developing and enforcing safety regulations, standards, and best practices help protect workers, the environment, and the public while enhancing the overall safety and reliability of natural gas operations.</p>
+</section>
+<section id="personal-protective-equipment-ppe">
+<h2>Personal Protective Equipment (PPE)<a class="headerlink" href="#personal-protective-equipment-ppe" title="Permalink to this headline">#</a></h2>
+<p>Being intimately familiar with your safety equipment is paramount to making sure everyone returns home safely at the end of the day.  In the case of an incident, one will want to make sure that the equipment they are using is ample protection, which can only be done if the equipment is inspected beforehand. Below is what standards should be mentioned on safety equipment when working in the natural gas industry.</p>
+<section id="safety-glasses">
+<h3>Safety Glasses<a class="headerlink" href="#safety-glasses" title="Permalink to this headline">#</a></h3>
+<p>Safety glasses are an essential piece of personal protective equipment for many work environments. They function as impact-resistant eye protection to shield the eyes from hazards like flying debris, sparks, and chemical splashes. Safety glasses come in various styles like spectacles with side shields, goggles that completely cover the eyes, and overspecs that fit over prescription glasses. Lenses can be clear or tinted to filter certain light wavelengths. Polycarbonate is a common lens material known for its strength, clarity, and resistance to scratching.  Some common specifications for safety glasses include:</p>
+<ul class="simple">
+<li><p>ANSI Z87 - This specification ensures ANSI Z87.1-2015 compliance, the minimum standard that all safety glasses should adhere to. This tests for basic impact resistance.</p></li>
+<li><p>ANSI Z87+ - High velocity impact</p></li>
+<li><p>U2 to U6 - UV Protection where U6 is the highest</p></li>
+<li><p>S - Special Tint</p></li>
+<li><p>Other markings are available for hazards such as dust protection and liquid splashes</p></li>
+</ul>
+</section>
+<section id="safety-toe-work-shoes">
+<h3>Safety Toe Work Shoes<a class="headerlink" href="#safety-toe-work-shoes" title="Permalink to this headline">#</a></h3>
+<p>Safety toe footwear is essential personal protective equipment for workers in industrial settings. Safety toes contain a reinforced toe box that protects the feet from compression and impact injuries. They help prevent crushing injuries from dropped objects, rolling equipment, and other workplace hazards. The most common types of safety toes are steel and composite. Steel toes are durable and resistant to punctures, while composite toes are lightweight and provide similar protection.</p>
+<p>Safety toe work shoes must meet performance requirements for toe protection outlined in ASTM F2413. This includes withstanding impacts up to 75 pounds and compression loads up to 2,500 pounds. Safety toes should also be shaped and sized appropriately to protect the entire foot area. In addition to toe protection, safety shoes have slip-resistant soles and may contain other features like metatarsal guards and electrical hazard protection. Some other common markings include:</p>
+<ul class="simple">
+<li><p>Mt/75 - Metatarsal rating of 75 ft-lbs of force to protect the middle of the foot</p></li>
+<li><p>C/75 - Compression test of 7,500 lbs force for toe cap protection</p></li>
+<li><p>I/75 - Impact of 50 lbs from 18 inches for toe cap protection</p></li>
+</ul>
+</section>
+<section id="head-protection">
+<h3>Head Protection<a class="headerlink" href="#head-protection" title="Permalink to this headline">#</a></h3>
+<p>Industrial head protection is vital personal protective equipment that helps prevent traumatic brain injuries and head wounds. Industrial helmets or “hard hats” are designed to reduce the force of impacts to the skull caused by falling or flying objects, bumps from fixed objects, and accidental head contact with electrical hazards. Hard hats have a rigid dome shell that distributes and absorbs shock. They often include a suspension system inside to further attenuate impact.</p>
+<p>To provide sufficient protection, hard hats must adhere to performance requirements in standards such as ANSI Z89.1. Testing criteria includes impact resistance, penetration resistance, flammability and electrical insulation. Below are some common markings:</p>
+<ul class="simple">
+<li><p>ANSI Z89.1-2019 - lateral and vertical impact resistant</p></li>
+<li><p>Electrical Isolation: G - General<br />
+E - Electrical (Most Common and Most Protective)<br />
+C - Conductive (Throw This Away)</p></li>
+<li><p>Temperature: HT - High Temperature<br />
+LT - Low Temperature</p></li>
+</ul>
+</section>
+<section id="flame-resistant-clothing-fr">
+<h3>Flame Resistant Clothing (FR)<a class="headerlink" href="#flame-resistant-clothing-fr" title="Permalink to this headline">#</a></h3>
+<p>Flame resistant (FR) clothing is essential personal protective equipment for workers exposed to flash fire and electric arc flash hazards. FR clothing is made from fabrics that are inherently fire-resistant or treated with chemicals to make them resist ignition, burn slowly, and self-extinguish. FR clothing protects by creating a thermal barrier and not allowing heat transfer to the skin.</p>
+<p>FR work wear includes shirts, pants, coveralls, and outerwear rated for different hazard levels. The garments should cover the body fully and be worn in multiple layers for increased protection. Standard NFPA 2112 helps define garment performance requirements. Regular inspection and maintenance is key to ensuring FR clothing remains protective over its service life; however, be careful about washing your FR clothing in normal washes as this can remove the flame resistant properties of the PPE.</p>
+</section>
+<section id="hearing-protection">
+<h3>Hearing Protection<a class="headerlink" href="#hearing-protection" title="Permalink to this headline">#</a></h3>
+<p>Hearing protection is essential personal protective equipment that helps prevent occupational noise-induced hearing loss. Prolonged exposure to hazardous noise can cause permanent hearing damage and impairment. Hearing protection devices like earplugs and earmuffs limit noise exposure by blocking or absorbing sound waves before they enter the ear canal. They provide a barrier that reduces noise to safer levels below 85 decibels.</p>
+<p>There are many types of hearing protectors available that offer different noise reduction ratings (NRR). A higher NRR indicates more damping of noise. Proper insertion and fit are critical for earplugs to be effective. Earmuffs completely cover the ears to block noise and must form an adequate seal. Hearing protection needs to be matched to the noise hazards present and worn consistently in noisy environments. OSHA requires provision of hearing protection when noise exceeds permissible exposure limits.</p>
+<p>By wearing suitable hearing protection according to regulations, industrial workers can prevent disabling hearing injuries that degrade quality of life. Technicians working in noisy settings like need to be vigilant about protecting their hearing each day. Proper use of hearing protection preserves the ability to communicate, work safely, and enjoy activities after leaving the job site.</p>
+</section>
+<section id="combustible-gas-indicators-cgis">
+<h3>Combustible Gas Indicators (CGIs)<a class="headerlink" href="#combustible-gas-indicators-cgis" title="Permalink to this headline">#</a></h3>
+<p>Combustible gas indicators (CGIs) are portable monitoring devices used to detect the presence of flammable gases and vapors in the air. They are a vital safety tool utilized in the natural gas industry.  However, modern CGIs often monitor more than just combustible gases.  Below are the four primary sensors on modern day CGIs used in the natural gas industry:</p>
+<ol class="simple">
+<li><p>Methane LEL% - This is the percent of the Lower Explosive Limit (LEL) of Methane (aka: the point at which methane can burn in air). Methane is only flammable when it is ~5-15% of a gas/air mixture; so a 50% reading for Methane LEL% would correspond to an air gas mixture with 2.5% methane.</p></li>
+<li><p>Percent Oxygen - This is the percent of oxygen in the air, typically around 21% under normal conditions.</p></li>
+<li><p>H2S - H2S stands for hydrogen sulfide, a highly toxic gas that can be deadly at high concentrations. H2S is acutely toxic and can cause irritation at low concentrations and rapid unconsciousness and death at higher concentrations above 500 ppm. At low concentrations, H2S has a distinct “rotten egg” odor. But at higher concentrations, it deadens the sense of smell, eliminating warning of exposure. <span id="id1">[<a class="reference internal" href="../References/References.html#id5" title="OSHA. Effects of hydrogen sulfide h2s. 2023. URL: https://www.osha.gov/sites/default/files/2018-12/fy15_sh-27664-sh5_Confined_Space_Handout_Effects_of_H2S.pdf (visited on 2023-07-17).">OSH23a</a>]</span>.</p></li>
+<li><p>Carbon Monoxide - Carbon monoxide is a toxic gas that binds to hemoglobin in the blood, reducing oxygen transport and leading to tissue hypoxia causing neurological impairments.  Symptoms are typically noticeable above 70 ppm, but caution should be taken for any amount. <span id="id2">[<a class="reference internal" href="../References/References.html#id6" title="Consumer Product Safety Commission. Carbon-monoxide-questions-and-answers. 2023. URL: https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Carbon-Monoxide-Information-Center/Carbon-Monoxide-Questions-and-Answers (visited on 2023-07-17).">Com23</a>]</span>. Carbon Monoxide is likely present to some degree whenever fossil fuels are burned, due to the partial incomplete combustion of the fuels.</p></li>
+</ol>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>For specific hazardous environments experienced within the industry, please visit <a class="reference external" href="http://OSHA.gov">OSHA.gov</a> <span id="id3">[<a class="reference internal" href="../References/References.html#id4" title="OSHA. Safety hazards associated with oil and gas extraction activities. 2023. URL: https://www.osha.gov/oil-and-gas-extraction/hazards (visited on 2023-07-17).">OSH23b</a>]</span>.</p>
+</div>
+</section>
+</section>
+<section id="questions">
+<h2>Questions<a class="headerlink" href="#questions" title="Permalink to this headline">#</a></h2>
+<ol class="simple">
+<li><p>Please take photographs of the following pieces of YOUR personal PPE and identify what every marking on them means.  Please circle where the safety markings are on your photos.  Depending on the quality of your equipment, there may be several or only a few ratings.  Additionally, please explain why it is important to note this safety rating on the equipment.<br />
+a. Safety Glasses<br />
+b. Safety Toe Work Shoe<br />
+c. Head Protection<br />
+d. Hearing Protection</p></li>
+<li><p>Please research a safety incident where either FR clothing was used to help prevent injury or should have been used to prevent injury.  Please provide a link to your source.  Additionally, explain any other precautions that should have been taken to prevent the incident from happening in the first place.</p></li>
+<li><p>Combustible Gas indicators typically monitor 4 components (Oxygen, Carbon Monoxide, H2S, and Methane).  Please explain what the proper action is if your CGI alarms with each of the following warnings, assuming you did not expect it to go off.  Additionally, please give at least one example of what sort of situation would cause this alarm to go off.<br />
+a. Low Oxygen<br />
+b. High Carbon Monoxide<br />
+c. High H2S<br />
+d. Methane LEL% above lower limit</p></li>
+<li><p>Please share a safety contact pertinent to either recent events at large or in your personal life.</p></li>
+</ol>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./Chapter Content"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="Chapter%201.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Chapter 1: How the Gas Industry Works</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="Chapter%203.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Chapter 3: The Chemistry of Gas Measurement</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Michael Fouts<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>
