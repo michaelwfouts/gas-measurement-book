@@ -1,0 +1,632 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Chapter 3: The Chemistry of Gas Measurement &#8212; Gas Measurement For Technicians</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Chapter 4: The Basic Math of Gas Measurement" href="Chapter%204.html" />
+    <link rel="prev" title="Chapter 2: Safety" href="Chapter%202.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/gas-measurement-logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Gas Measurement For Technicians</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Welcome to Gas Measurement for Technicians
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%201.html">
+   Chapter 1: How the Gas Industry Works
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%202.html">
+   Chapter 2: Safety
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Chapter 3: The Chemistry of Gas Measurement
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%204.html">
+   Chapter 4: The Basic Math of Gas Measurement
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%205.html">
+   Chapter 5: Gas Quality
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%206.html">
+   Chapter 6: Real Gases
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%207.html">
+   Chapter 7: Instrumentation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%208.html">
+   Chapter 8: Meters
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Appendix/Appendix.html">
+   Appendix
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../References/References.html">
+   References
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Appendix/Author.html">
+   About the Author
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/executablebooks/jupyter-book"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FChapter Content/Chapter 3.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../_sources/Chapter Content/Chapter 3.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#molecules">
+   Molecules
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#measurements-to-count-the-molecules">
+   Measurements to count the Molecules
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#absolute-units">
+   Absolute Units
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#temperature">
+   Temperature
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#pressure">
+   Pressure
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#volume">
+   Volume
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#questions">
+   Questions
+  </a>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Chapter 3: The Chemistry of Gas Measurement</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#molecules">
+   Molecules
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#measurements-to-count-the-molecules">
+   Measurements to count the Molecules
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#absolute-units">
+   Absolute Units
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#temperature">
+   Temperature
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#pressure">
+   Pressure
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#volume">
+   Volume
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#questions">
+   Questions
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="chapter-3-the-chemistry-of-gas-measurement">
+<h1>Chapter 3: The Chemistry of Gas Measurement<a class="headerlink" href="#chapter-3-the-chemistry-of-gas-measurement" title="Permalink to this headline">#</a></h1>
+<p>Natural gas is composed primarily of methane, but also contains varying amounts of other hydrocarbons. The exact chemical composition of natural gas can vary depending on the source.  Understanding the properties of each of these compounds and how they interact with physical variables is at the core of gas measurement.  This chapter serves to be as an exposition of the concepts with the math to be detailed in further chapters.</p>
+<section id="molecules">
+<h2>Molecules<a class="headerlink" href="#molecules" title="Permalink to this headline">#</a></h2>
+<p>A molecule is two or more atoms bonded together. The atoms combine to form a new unified particle with its own physical and chemical properties.  Atoms are one of the basic building blocks of matter and are typically referred to by their periodic table name.  Examples include carbon (C), hydrogen (H), oxygen (O), and nitrogen (N). For example, the methane molecule consists of 5 atoms bonded together - 1 carbon atom and 4 hydrogen atoms. This gives it the chemical formula of CH<sub>4</sub>, representing the number of each atom in the compound.</p>
+<p>This is important to the natural gas industry because of money.  In the natural gas industry in particular, they charge customers based on the <u>number</u> of molecules that flow through the pipe and <u>what</u> those molecules are.  This will get more firmly defined as Standard Cubic Feet (SCF) and Dekatherms (Dth) in later chapters.</p>
+</section>
+<section id="measurements-to-count-the-molecules">
+<h2>Measurements to count the Molecules<a class="headerlink" href="#measurements-to-count-the-molecules" title="Permalink to this headline">#</a></h2>
+<p>Molecules are incredibly small.  In fact, if you were to line up 1,000,000 water molecules end to end, they would be about the thickness of a human hair. <span id="id1">[<a class="reference internal" href="../References/References.html#id7" title="Morgridge Institute. How many molecules are in a cubic inch? 2017. URL: https://morgridge.org/blue-sky/how-many-molecules-are-in-a-cubic-inch (visited on 2023-07-19).">Ins17</a>]</span> This makes counting them individually completely out of the question.  The question is now: what can we measure in order to estimate the number of molecules in our pipeline?  The answer are four variables: Temperature, Pressure, Actual Volume, and Gas Quality.  The rest of this chapter will be dedicated to explaining each of these in a little more detail, with the exception of Gas Quality, which gets it’s own chapter.</p>
+</section>
+<section id="absolute-units">
+<h2>Absolute Units<a class="headerlink" href="#absolute-units" title="Permalink to this headline">#</a></h2>
+<p>Before continuing, there is one topic that needs to be expanded upon and is crucial to the later mathematical calculations: Absolute units. Absolute units are units of measurement that are based on natural physical constants or properties, rather than relative points. These will be noted as different units are introduced going forward, but the key similarity between all absolute units is <u>the smallest possible value is 0</u>.  By avoiding negative numbers in the scale, it allows the math to become much simpler as they all have a fixed, universal reference point.</p>
+</section>
+<section id="temperature">
+<h2>Temperature<a class="headerlink" href="#temperature" title="Permalink to this headline">#</a></h2>
+<p>Temperature is a physical property that measures how hot or cold an object is. More specifically, it is a measure of the average kinetic energy of molecules within an object. Kinetic energy is the energy of motion, specifically from the molecules vibrating inside of an object. As an object gains thermal energy, its molecules move faster as they gain kinetic energy as shown by an increase in temperature. Lower temperature means lower average kinetic energy, as particles slow down.
+Since gas measurement is about measuring these molecules, temperature is one of the critical properties to measure to see how the molecules are behaving and interacting with one and other inside of the pipe.</p>
+<p>When measuring temperature in the United States, typically either the Fahrenheit scale (relative units) or the Rankine scale (absolute units) are used.  A degree change in both the Fahrenheit and Rankine scales are equivalent; however, there is an offset of 459.67°  between the two units to make 0°R the smallest value on the Rankine scale.  In the metric system, the scales used to measure temperature are Celsius and Kelvin; however, this book will focus on the United States customary units.  Below is a table showing some important values of temperature in each scale.</p>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Description</p></th>
+<th class="head"><p>°F</p></th>
+<th class="head"><p>°R</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Boiling Point of Water</p></td>
+<td><p>212</p></td>
+<td><p>671.67</p></td>
+</tr>
+<tr class="row-odd"><td><p>Freezing Point of Water</p></td>
+<td><p>32</p></td>
+<td><p>491.67</p></td>
+</tr>
+<tr class="row-even"><td><p>Absolute Zero</p></td>
+<td><p>-459.67</p></td>
+<td><p>0</p></td>
+</tr>
+</tbody>
+</table>
+<p>The equations used to convert between the two are:</p>
+<div class="math notranslate nohighlight">
+\[
+°F = °R - 459.67
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+°R = °F + 459.67
+\]</div>
+</section>
+<section id="pressure">
+<h2>Pressure<a class="headerlink" href="#pressure" title="Permalink to this headline">#</a></h2>
+<p>Pressure is a fundamental physical force that quantified the perpendicular force applied over a surface. It refers to the force exerted per unit area on an object or by the object.
+On a microscopic scale, pressure results from molecules colliding with a surface.  To think of this in terms of a natural gas pipeline, as more molecules are forced into the pipeline, more collisions happen with the wall of the pipe, increasing the pressure on the surface of the pipe.</p>
+<p>An important concept to understand about gas measurement is atmospheric pressure. This refers to the pressure exerted by the weight of the air in Earth’s atmosphere. It results from the gravitational attraction of the planet pulling air molecules down towards its surface.</p>
+<p>At sea level, the average atmospheric pressure in United States customary units is approximately 14.7 psi (pounds per square inch or lb/in<sup>2</sup>). This means the force pressing perpendicularly across every square inch of surface is 14.73 pounds. As altitude increases, there are fewer air molecules above exerting a downward force, so atmospheric pressure decreases. For example, Mount Everest at 29,029 feet has an atmospheric pressure of 4.84-4.89 psia. <span id="id2">[<a class="reference internal" href="../References/References.html#id8" title="Mt. Everest – All Sensors \textbar  Put the Pressure on Us. July 2015. URL: https://allsensors.com/blog/tag/mt-everest/ (visited on 2023-07-21).">mt_15</a>]</span>.</p>
+<p>It is important to note that there are versions of this measurement for both absolute and relative units.  For example, psia stands for “pounds per square inch absolute” while psig stands for “pounds per square inch gauge.  Psia refers to the absolute pressure measured relative to a perfect vacuum (0 psia) and it includes the atmospheric pressure. Psig refers to the gauge pressure measured relative to the local atmospheric pressure (0 psig) excludes atmospheric pressure.  For example,  if a tire gauge shows the pressure is 32 psig, that means the tire pressure is 32 psi above the ambient atmospheric pressure.  To convert between absolute and gauge units, use the following formula:</p>
+<div class="math notranslate nohighlight">
+\[
+Absolute \: Pressure \: (psia) = Gauge \: Pressure \: (psig) + Atmospheric \: Pressure \: (psia)
+\]</div>
+<p>One piece of information that typically must be assumed when dealing with pressure is assuming what the atmospheric pressure is.  Since it varies with location, it can affect the overall calculations to count the number of molecules inside the pipeline.  Financially speaking, this is typically done during contract negotiations mentioned in <span class="xref std std-doc">Chapter 1</span>.</p>
+<p>This text considers two options. The first is that Atmospheric Pressure is that of sea level (14.73 psia).  This is a common reference point because the ocean is one continuous body of water and its surface has a similar height, regardless of where in the world one is.  The second is known as the average atmospheric pressure in the Appalachian Basin Region (14.4 psia).  This is used for this text because this book was originally written in West Virginia, in the middle of this region, and gives an understanding of local air pressure. However, this number could be adapted to any local operating area.</p>
+</section>
+<section id="volume">
+<h2>Volume<a class="headerlink" href="#volume" title="Permalink to this headline">#</a></h2>
+<p>Volume is a fundamental physical quantity that measures the three-dimensional amount of space an object or substance occupies. It quantifies how much a container can hold or the magnitude of a space.  Gas particles spread out to fill any container, and their volume changes substantially under different conditions.  In the context of natural gas pipelines though, the walls of the pipe act as a rigid barrier to give a defined volume to the gas.</p>
+<p>While there is typically only one way for measuring volume with United States customary units, colloquially speaking, there are two “volumes” that are used in the natural gas industry and I want to take this moment to clarify the distinction between the two.</p>
+<p>The first is Actual Cubic Feet (ACF) which is a measure of the physical space something takes up.  For example, if you have a box that is 1 ft on each side, the total volume of space that the box takes up is 1 ACF.</p>
+<p>The second value is referred to as the “Standard Cubic Foot” (SCF).  However, note that the SCF <u>is NOT a volume unit of measurement</u>.  The idea comes from the fact that the temperature and pressure are held constant.  By doing this, the SCF becomes analogous to the number of molecules of gas and not the physical space it takes up.  This is described in more detail in the next chapter as well as a mathematical explanation.</p>
+<p>Colloquially speaking, in industry, the difference between an ACF and SCF is not explicitly ever said.  However, most of the time a cubic foot is mentioned, it is about an SCF.  Often Roman Numerals or letters are accompanied by the number of cubic feet to account for the fact that an SCF of gas is very small in a practical sense (for example, the average home uses 196 SCF of gas a day) <span id="id3">[<a class="reference internal" href="../References/References.html#id9" title="Williams. Natural gas: the facts. 2016. URL: http://northeastsupplyenhancement.com/wp-content/uploads/2016/11/Natural-Gas-Facts.pdf (visited on 2023-07-21).">Wil16</a>]</span>.  Some common examples of units are shown below.</p>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Unit</p></th>
+<th class="head"><p>Meaning</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>MCF</p></td>
+<td><p>Thousand Standard Cubic Feet</p></td>
+</tr>
+<tr class="row-odd"><td><p>MMCF</p></td>
+<td><p>Million Standard Cubic Feet</p></td>
+</tr>
+<tr class="row-even"><td><p>BCF</p></td>
+<td><p>Billion Standard Cubic Feet</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="questions">
+<h2>Questions<a class="headerlink" href="#questions" title="Permalink to this headline">#</a></h2>
+<ol class="simple">
+<li><p>Convert the temperatures from the units given to the units requested.<br />
+a. 80°F to °R<br />
+b. 120°F to °R<br />
+c. 250°R to °F<br />
+d. 423°R to °F<br />
+e. -12°F to °R</p></li>
+<li><p>Convert the pressures from the units given to the units requested, assuming you are operating in the <strong>Appalachian Basin Region</strong>.<br />
+a. 100 psig to psia<br />
+b. 489 psia to psig<br />
+c. 0 psig to psia</p></li>
+<li><p>Convert the pressures from the units given to the units requested, assuming you are operating at <strong>Sea Level</strong>.<br />
+a. 145 psig to psia<br />
+b. 32 psia to psig<br />
+c. 0 psig to psia</p></li>
+<li><p>What is the difference between actual cubic feet and standard cubic feet?</p></li>
+<li><p>Please share a safety contact pertinent to either recent events at large or in your personal life.</p></li>
+</ol>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./Chapter Content"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="Chapter%202.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Chapter 2: Safety</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="Chapter%204.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Chapter 4: The Basic Math of Gas Measurement</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Michael Fouts<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>

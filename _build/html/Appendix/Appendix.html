@@ -1,0 +1,553 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Appendix &#8212; Gas Measurement For Technicians</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="References" href="../References/References.html" />
+    <link rel="prev" title="Chapter 8: Meters" href="../Chapter%20Content/Chapter%208.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/gas-measurement-logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Gas Measurement For Technicians</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Welcome to Gas Measurement for Technicians
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Chapter%20Content/Chapter%201.html">
+   Chapter 1: How the Gas Industry Works
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Chapter%20Content/Chapter%202.html">
+   Chapter 2: Safety
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Chapter%20Content/Chapter%203.html">
+   Chapter 3: The Chemistry of Gas Measurement
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Chapter%20Content/Chapter%204.html">
+   Chapter 4: The Basic Math of Gas Measurement
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Chapter%20Content/Chapter%205.html">
+   Chapter 5: Gas Quality
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Chapter%20Content/Chapter%206.html">
+   Chapter 6: Real Gases
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Chapter%20Content/Chapter%207.html">
+   Chapter 7: Instrumentation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Chapter%20Content/Chapter%208.html">
+   Chapter 8: Meters
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Appendix
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../References/References.html">
+   References
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Author.html">
+   About the Author
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/executablebooks/jupyter-book"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FAppendix/Appendix.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../_sources/Appendix/Appendix.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#chapter-1-how-the-gas-industry-works">
+   Chapter 1: How the Gas Industry Works
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#additional-natural-gas-entities">
+     Additional Natural Gas Entities
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#additional-wholesale-market-information">
+     Additional Wholesale Market Information
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#bonus-content">
+   Bonus Content
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#communications">
+     Communications
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Appendix</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#chapter-1-how-the-gas-industry-works">
+   Chapter 1: How the Gas Industry Works
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#additional-natural-gas-entities">
+     Additional Natural Gas Entities
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#additional-wholesale-market-information">
+     Additional Wholesale Market Information
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#bonus-content">
+   Bonus Content
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#communications">
+     Communications
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="appendix">
+<h1>Appendix<a class="headerlink" href="#appendix" title="Permalink to this headline">#</a></h1>
+<section id="chapter-1-how-the-gas-industry-works">
+<h2>Chapter 1: How the Gas Industry Works<a class="headerlink" href="#chapter-1-how-the-gas-industry-works" title="Permalink to this headline">#</a></h2>
+<section id="additional-natural-gas-entities">
+<h3>Additional Natural Gas Entities<a class="headerlink" href="#additional-natural-gas-entities" title="Permalink to this headline">#</a></h3>
+<p>While the simplified example of how natural gas gets transported in <span class="xref std std-doc">Chapter 1</span> provides the needed framework to begin to understand measurement, there are several additional entities that someone who enters that natural gas profession will need to become familiar with.  Those include:</p>
+<ol class="simple">
+<li><p>Gathering and Processing: Once natural gas is extracted from wells, it may need to undergo gathering and processing. This is post production/extraction and can be considered part of upstream or midstream depending on the companies. Gathering pipelines transport the gas from individual wellheads to a central collection point or processing facility. At processing plants, the gas is treated to remove impurities, such as water vapor, carbon dioxide, and sulfur compounds, to meet quality specifications for transportation and commercial use.</p></li>
+<li><p>Transmission: After processing, the natural gas enters the transmission stage. Transmission pipelines, owned by transmission companies or pipeline operators, form an extensive network that spans long distances. These high-pressure pipelines transport large volumes of natural gas from production areas to distribution points or major consumption regions. Transmission operations, including compression stations and storage facilities, play a crucial role in maintaining the flow and balancing supply-demand dynamics.</p></li>
+<li><p>Local Distribution Companies (LDCs): This was briefly mentioned in the chapter, but LDCs (sometimes colloquially called utility companies), serve as the primary interface between the wholesale market and end customers. LDCs purchase natural gas from producers or wholesalers and deliver it to residential, commercial, and industrial customers through local distribution systems. LDCs maintain the infrastructure of pipelines, meters, and service connections required for distributing gas to end users.  Since there is an additional custody transfer point between the LDC and the house/businesses they deliver to, an additional meter is put in the process (typically a diaphragm meter for houses and diaphragm/rotary for larger applications) where the LDC can calculate how much to gas is used by their end customer.</p></li>
+</ol>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>For additional figures and explanations about entities in the natural gas industry, please refer to Chapter 1 of Natural Gas Measurement Handbook by Gallagher <span id="id1">[<a class="reference internal" href="../References/References.html#id3" title="James E. Gallagher. Natural Gas Measurement Handbook. Gulf Publishing Company, 2006. ISBN 978-1-933762-00-5. URL: https://app.knovel.com/hotlink/toc/id:kpNGMH0001/natural-gas-measurement/natural-gas-measurement.">Gal06</a>]</span>.</p>
+</div>
+</section>
+<section id="additional-wholesale-market-information">
+<h3>Additional Wholesale Market Information<a class="headerlink" href="#additional-wholesale-market-information" title="Permalink to this headline">#</a></h3>
+<p>On the wholesale market, there are several players at hand including Natural Gas Producers, LDCs, and Power Generators/Industrial Consumers.  However, the Marketers and Traders who facilitate these contracts and transactions are often not taught about, yet play an incredibly important role in the financial operations of the industry. Natural gas marketers and traders act as intermediaries between producers and end customers. They buy natural gas from producers and sell it to other market participants, such as local distribution companies, industrial consumers, or other marketers. Marketers and traders often operate on a regional or national scale and play a crucial role in facilitating transactions and managing the logistics of natural gas supply.  When the natural gas marketers and traders buy this gas, it is typically done in the form of contracts.  These contracts establish the terms and conditions of the trade, including the volume of gas, delivery locations, pricing mechanisms, and contract durations. Common contract types include:</p>
+<ul class="simple">
+<li><p>Spot Contracts: Spot contracts involve the immediate delivery of natural gas at current market prices. They are often used for short-term or immediate needs, and the prices are determined by supply and demand dynamics.</p></li>
+<li><p>Futures Contracts: Futures contracts are agreements to buy or sell natural gas at a predetermined price for delivery at a specified future date. They allow market participants to hedge against price fluctuations and manage their exposure to market risks.</p></li>
+<li><p>Long-Term Contracts: Long-term contracts are typically multi-year agreements between producers and buyers. These contracts provide stability and security in the supply of natural gas over an extended period. They often include fixed or indexed pricing mechanisms.</p></li>
+</ul>
+</section>
+</section>
+<section id="bonus-content">
+<h2>Bonus Content<a class="headerlink" href="#bonus-content" title="Permalink to this headline">#</a></h2>
+<section id="communications">
+<h3>Communications<a class="headerlink" href="#communications" title="Permalink to this headline">#</a></h3>
+<p>Gas measurement deals significantly with the electronic transfer of data.  Below is a figure representing a high-level transfer of data from the measurement device back to the databases where the information is stored.</p>
+<figure class="align-default" id="communication-diagram">
+<img alt="../_images/communication-diagram.png" src="../_images/communication-diagram.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 4 </span><span class="caption-text">High-Level Gas Measurement Data Communication Diagram</span><a class="headerlink" href="#communication-diagram" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<ol class="simple">
+<li><p>Field Equipment - Captures measurements from sensors for use by other systems.  Examples include meters (orifice, ultrasonic, turbine, etc.), transmitters (temperature, pressure, and DP) and gas quality equipment (gas chromatographs, moisture analyzers, oxygen analyzers, etc.)</p></li>
+<li><p>RTU (Remote Terminal Unit) or PLC (Programmable Logic Controller) - These devices collect the data generated from field equipment on site. Typically do some calculations as well (like SCF and Dekatherms) as well as having logic for controlling pieces of equipment such as control valves and actuators.</p></li>
+<li><p>Communication Networks - Transports the data that the RTU or PLC collects to some other location.  Examples include telephone lines, IP (ethernet), microwave communication, radio communication, satellites, or cell networks.</p></li>
+<li><p>FEP (Front End Processor) - FEP pulls pulls for information and manages the field communications to try and make sure data isn’t missed and comes in at optimal times.  This keeps a list of RTU’s, communication settings, and manages to pull data when pieces of equipment can’t communicate.</p></li>
+<li><p>SCADA (Supervisory Control and Data Acquisition) - This processes the data coming in for status, alarming, and performs advanced calculations.</p></li>
+<li><p>Real Time Interface - Allows user visibility and control of the system.  These tend to be bare-bones displays so the system will run as fast as possible.  Some exceptions to that include safety where you want units to be as easy to identify as possible.  This is the screen you would typically see a person in Gas Control use.</p></li>
+<li><p>Historical Database - These are tables of information that are used for reporting and billing.</p></li>
+</ol>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./Appendix"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="../Chapter%20Content/Chapter%208.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Chapter 8: Meters</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="../References/References.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">References</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Michael Fouts<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>

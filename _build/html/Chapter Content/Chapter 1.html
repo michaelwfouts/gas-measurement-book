@@ -1,0 +1,592 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Chapter 1: How the Gas Industry Works &#8212; Gas Measurement For Technicians</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Chapter 2: Safety" href="Chapter%202.html" />
+    <link rel="prev" title="Welcome to Gas Measurement for Technicians" href="../intro.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/gas-measurement-logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Gas Measurement For Technicians</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Welcome to Gas Measurement for Technicians
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Chapter 1: How the Gas Industry Works
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%202.html">
+   Chapter 2: Safety
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%203.html">
+   Chapter 3: The Chemistry of Gas Measurement
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%204.html">
+   Chapter 4: The Basic Math of Gas Measurement
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%205.html">
+   Chapter 5: Gas Quality
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%206.html">
+   Chapter 6: Real Gases
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%207.html">
+   Chapter 7: Instrumentation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Chapter%208.html">
+   Chapter 8: Meters
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Appendix/Appendix.html">
+   Appendix
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../References/References.html">
+   References
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Appendix/Author.html">
+   About the Author
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/executablebooks/jupyter-book"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FChapter Content/Chapter 1.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../_sources/Chapter Content/Chapter 1.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#natural-gas-and-its-uses">
+   Natural Gas and Its Uses
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how-the-natural-gas-industry-operates">
+   How the Natural Gas Industry Operates
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#why-gas-measurement">
+   Why Gas Measurement?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#who-works-in-gas-measurement">
+   Who works in Gas Measurement?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#what-does-a-gas-measurement-technician-do">
+   What does a Gas Measurement Technician do?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#what-the-rest-of-this-book-contains">
+   What the Rest of this Book Contains
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#questions">
+   Questions
+  </a>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Chapter 1: How the Gas Industry Works</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#natural-gas-and-its-uses">
+   Natural Gas and Its Uses
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how-the-natural-gas-industry-operates">
+   How the Natural Gas Industry Operates
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#why-gas-measurement">
+   Why Gas Measurement?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#who-works-in-gas-measurement">
+   Who works in Gas Measurement?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#what-does-a-gas-measurement-technician-do">
+   What does a Gas Measurement Technician do?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#what-the-rest-of-this-book-contains">
+   What the Rest of this Book Contains
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#questions">
+   Questions
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="chapter-1-how-the-gas-industry-works">
+<h1>Chapter 1: How the Gas Industry Works<a class="headerlink" href="#chapter-1-how-the-gas-industry-works" title="Permalink to this headline">#</a></h1>
+<section id="natural-gas-and-its-uses">
+<h2>Natural Gas and Its Uses<a class="headerlink" href="#natural-gas-and-its-uses" title="Permalink to this headline">#</a></h2>
+<p>Natural gas is a fossil fuel that primarily consists of methane (CH4), although it can also contain small amounts of other hydrocarbon gases. It is formed deep beneath the Earth’s surface over millions of years through the decomposition of organic matter, such as ancient plants and microorganisms. Natural gas is often found in association with oil deposits, but it can also be found in separate reservoirs.</p>
+<p>One of the main characteristics of natural gas is its gaseous state at normal atmospheric conditions. It is colorless, odorless, and lighter than air. However, an odorant called mercaptan is added to natural gas before distribution to give it a distinctive smell for safety purposes.</p>
+<p>Natural gas is a versatile and efficient energy source used for various purposes. Here are some of its primary uses:</p>
+<ol class="simple">
+<li><p>Power Generation: Natural gas is widely used in electricity generation. Gas-fired power plants utilize turbines or internal combustion engines to convert the energy released from burning natural gas into electricity. Natural gas power plants are known for their high efficiency, lower emissions compared to coal-fired plants, and their ability to quickly respond to changes in electricity demand.</p></li>
+<li><p>Residential and Commercial Heating: Natural gas is commonly used for space heating in homes, offices, and other commercial buildings due to (at the time of writing this) its economic competitiveness compared to other widely available power sources, such as electric <span id="id1">[<a class="reference internal" href="../References/References.html#id2" title="Anne Lauer. Natural gas heat vs electrical heat – which is cheaper – 2023. 2023. URL: https://shrinkthatfootprint.com/natural-gas-heat-vs-electrical-heat/ (visited on 2023-07-13).">Lau23</a>]</span>. It is supplied to individual premises through local distribution networks and used in furnaces, boilers, and heaters.  While space heating is the primary use for natural gas in this category, it is also used with several other smaller appliances such as stoves, ovens, grills, water heaters, clothes dryers, and fireplaces.</p></li>
+<li><p>Industrial Processes: Natural gas is a crucial fuel source for industrial processes across various sectors, including manufacturing, chemical production, and refining. It is used as a feedstock for the production of chemicals, such as ammonia and methanol, and as a fuel for powering industrial boilers, furnaces, and kilns.</p></li>
+<li><p>Transportation: Natural gas is increasingly being used as a transportation fuel. Compressed Natural Gas (CNG) and Liquefied Natural Gas (LNG) are used as alternative fuels for vehicles, including buses, trucks, and even some cars. Natural gas vehicles offer lower emissions compared to gasoline or diesel vehicles.  However, challenges appear with adoption due to the lack of widely available infrastructure to support these vehicles and the competition from the electric vehicle market.</p></li>
+</ol>
+<p>The versatility, abundance, and relatively lower emissions of natural gas have positioned it as an important transitional fuel in the transition towards cleaner energy systems. However, it’s important to note that environmental considerations, such as reducing methane emissions and transitioning to renewable energy sources, are gaining increasing attention within the natural gas industry.</p>
+</section>
+<section id="how-the-natural-gas-industry-operates">
+<h2>How the Natural Gas Industry Operates<a class="headerlink" href="#how-the-natural-gas-industry-operates" title="Permalink to this headline">#</a></h2>
+<p>While the natural gas industry is complex and doesn’t necessarily fit well into broad blanket statements, for the simplicity of gaining introductory knowledge of the topic, the major working of the natural gas delivery network will be broken up into three parts: Production, Midstream, and End Customer.</p>
+<p>Before describing each part of the industry, most new to the topic find it easier to use a more well known analogy to describe the operation: Amazon Package Delivery.  Amazon is one of the largest retail businesses in the world, operating from an online storefront.  The process starts with someone placing an order from Amazon.  Here, Amazon acts to line up buyers with sellers.  Amazon does this by showing the options that are available for a given product and the prices, allowing the customer to choose what option of product to go with.</p>
+<p>This is analogous to the wholesale marketing and trading of natural, sometimes referred to as a clearinghouse.  It is here that participants typically enter contracts to trade natural gas in a variety of formats, wholistically referred to as contracts. These contracts establish the terms and conditions of the trade, including the volume of gas, delivery locations, pricing mechanisms, and contract durations.</p>
+<p>Continuing on with the analogy using Amazon, let’s assume a bulk purchase is made, for example, a thousand office chairs for a new office building. Once the purchase is made, Amazon pulls the product off their warehouse shelves and the product is packaged on a semi-truck to travel a very long distance until the truck drops off the large shipment at the office building.</p>
+<p>The Amazon warehouse in this case is comparable to the producer of natural gas.  They are the ones with the products and responsible for procuring the goods that they market.  The semi-truck, taking several packages over very long distances, operate as the midstream entity, taking large amounts of product over very long distances.  The End Customer in this case is the office building, buying the office chairs from Amazon.</p>
+<p>Now that we have an understanding of the process occurring, let’s put some more formal definitions to each of the entities in the natural gas industry:</p>
+<ol class="simple">
+<li><p>Producer: Natural gas producers, which can be energy companies or independent exploration and production (E&amp;P) firms, engage in exploration activities to identify and extract natural gas reserves. They invest in geological surveys, drilling wells, and deploying production infrastructure to extract gas from underground reservoirs.</p></li>
+<li><p>Midstream: Midstream pipelines, owned by transmission companies or pipeline operators, form an extensive network that spans long distances. These high-pressure pipelines transport large volumes of natural gas from production areas to distribution points or major consumption regions. Midstream operations, including compression stations and storage facilities, play a crucial role in maintaining the flow and balancing supply-demand dynamics.</p></li>
+<li><p>End Customers: End Customers in this high level overview include entities that purchase natural gas via wholesale such as industrial customers, like chemical plants or large factories, or Local Distribution Companies (LDCs) who serve as the primary interface between the wholesale market and a large collection of small customers, such as residential households and small businesses.</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This is a grand simplification of the industry.  Some common additional details are mentioned in the <a class="reference internal" href="../Appendix/Appendix.html"><span class="doc std std-doc">Appendix</span></a>.</p>
+</div>
+</section>
+<section id="why-gas-measurement">
+<h2>Why Gas Measurement?<a class="headerlink" href="#why-gas-measurement" title="Permalink to this headline">#</a></h2>
+<p>With an idea of how the natural gas industry works, for this book, it begs the question: where does measurement fit in? The answer: in between every entity.  Going back back to our Amazon example, there was a part that was left out.  When the bulk order of chairs is taken from the warehouse and put on the semi-truck, there is typically a person with an electronic scanner reading the barcode of each package to verify that it has left the warehouse and additionally, the person who delivers the packages to the end customer will again read the barcode to verify that the package has made it off the truck and to the final destination.  It is this process that is equivalent to gas measurement.</p>
+<p>Gas measurement fills a niche inside the natural gas industry, serving as a specialty at the intersection of the technical and financial worlds.  The example given above is what is known as custody transfer measurement. Custody transfer refers to the transfer of ownership of natural gas from one party to another. Reliable gas measurement is essential for accurate quantification and billing during the commercial transactions between producers, marketers, and end consumers. Accurate measurement ensures that each party receives or pays for the exact amount of gas delivered, which is crucial for financial settlements and contractual obligations.  It is for this reason that gas measurement is often referred to as the “cash register” of the business, scanning all the items you want to purchase to make sure you pay the right amount of money. It is important to note that there are additional reasons for measurement, such as regulatory compliance like emissions, Lost and Unaccounted For Gas, and check measurement, but this text chooses to focus on custody transfer.</p>
+</section>
+<section id="who-works-in-gas-measurement">
+<h2>Who works in Gas Measurement?<a class="headerlink" href="#who-works-in-gas-measurement" title="Permalink to this headline">#</a></h2>
+<p>While there are several people who work in gas measurement, the people typically considered to have the most knowledge of the specialty include the following:</p>
+<ol class="simple">
+<li><p>Operations: The group who maintains the equipment and keeps the gas flowing.  They are typically responsible for day to day operations and work in the field with the physical pipeline and it’s equipment (most likely where a technician would be).</p></li>
+<li><p>Engineering: They design for accurate and precise measurement.  Additional duties include writing Standard Operating Procedures (SOPs) and Guidelines as well as performing data analysis.</p></li>
+<li><p>Gas Accounting: This group manages the remote data coming in from field devices to make sure it is valid and handles the billing to make sure financial transactions are handled appropriately.</p></li>
+<li><p>Marketing: They buy and sell gas and pipeline capacities (the ability to transport gas) and interact with both buyers and customers to facilitate financial transactions.</p></li>
+</ol>
+</section>
+<section id="what-does-a-gas-measurement-technician-do">
+<h2>What does a Gas Measurement Technician do?<a class="headerlink" href="#what-does-a-gas-measurement-technician-do" title="Permalink to this headline">#</a></h2>
+<p>Each person has a different role to fulfill in the business. However, to specifically focus on the technician since they are the primary audience for this text, their daily job duties can be broadly categorized into five different areas:</p>
+<ol class="simple">
+<li><p>Installation: Gas measurement technicians install measurement equipment and instruments used for gas flow, pressure, temperature, and composition. This involves working with various devices such as flow meters, pressure gauges, analyzers, and data acquisition systems. They ensure that the instruments are correctly installed, properly calibrated, and operating within specified parameters.</p></li>
+<li><p>Troubleshooting and Maintenance: Gas measurement technicians troubleshoot measurement equipment and systems to identify and resolve issues or malfunctions. They conduct inspections, perform routine maintenance, and conduct necessary repairs to ensure proper functioning and accuracy of measurement devices. Regular maintenance activities may include sensor cleaning, equipment calibration, and software updates.</p></li>
+<li><p>Measurement and Data Collection: Gas measurement technicians perform regular measurements and data collection at different points within the natural gas infrastructure, including production sites, processing plants, transmission pipelines, and distribution systems. They follow standardized procedures to accurately measure and record gas flow rates, pressures, temperatures, and other relevant parameters. This data is crucial for operational analysis, system balancing, and commercial transactions.</p></li>
+<li><p>Data Analysis and Reporting: Gas measurement technicians work with engineers and gas accounting to analyze measurement data, perform calculations, and generate reports regarding gas flow, volume, and quality. They utilize computer software and data analysis tools to interpret the collected data, identify trends, and generate accurate reports for operational, commercial, and regulatory purposes. These reports may include custody transfer documentation, regulatory compliance reports, and system performance analysis.</p></li>
+<li><p>Regulatory Compliance: Gas measurement technicians work with engineers to ensure compliance with applicable regulations, standards, and metrological requirements related to gas measurement. They stay up to date with the evolving regulatory landscape and ensure that measurement systems and processes meet the required accuracy, traceability, and documentation standards. They may participate in audits and inspections by regulatory authorities to demonstrate compliance.</p></li>
+</ol>
+</section>
+<section id="what-the-rest-of-this-book-contains">
+<h2>What the Rest of this Book Contains<a class="headerlink" href="#what-the-rest-of-this-book-contains" title="Permalink to this headline">#</a></h2>
+<p>With a general overview of where gas measurement fits into the industry, the rest of this book will focus on the specific equipment and calculations used by technicians in order to get an understanding of their day to day tasks</p>
+</section>
+<section id="questions">
+<h2>Questions<a class="headerlink" href="#questions" title="Permalink to this headline">#</a></h2>
+<ol class="simple">
+<li><p>Please research, using resources outside of this book, what the day to day tasks and responsibilities of a Gas Measurement Technician are and, in your own words, submit an essay below not to exceed 1000 words (no word minimum) describing what those are.  Other names for this role could be MC&amp;C (Measurement, Communications, and Controls) Technician or Instrumentation Technician. The format of the paper is up to you, so long as it looks professional.  Please link your sources.</p></li>
+<li><p>Please describe, at a high level, how the business of the gas industry works making sure to touch on what roles the producer, midstream, and end use customers play in the business.  Feel free to draw any diagrams if you see fit.</p></li>
+<li><p>Please describe what each of the following roles does as related to the Natural Gas Industry:<br />
+a.  Operations<br />
+b.  Engineering<br />
+c.  Gas Accounting<br />
+d.  Marketing</p></li>
+<li><p>Please share a safety contact pertinent to either recent events at large or in your personal life using an internal locus of control.</p></li>
+</ol>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./Chapter Content"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="../intro.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Welcome to Gas Measurement for Technicians</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="Chapter%202.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Chapter 2: Safety</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Michael Fouts<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>

@@ -1,0 +1,17 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: Chapter Content/Chapter 1
+- file: Chapter Content/Chapter 2
+- file: Chapter Content/Chapter 3
+- file: Chapter Content/Chapter 4
+- file: Chapter Content/Chapter 5
+- file: Chapter Content/Chapter 6
+- file: Chapter Content/Chapter 7
+- file: Chapter Content/Chapter 8
+- file: Appendix/Appendix
+- file: References/References
+- file: Appendix/Author

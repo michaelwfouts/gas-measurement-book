@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" modified="2023-07-29T21:27:43.193Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="S6fA7hnHKs9u7gvx77BW" version="21.6.6" type="device">
+  <diagram name="Page-1" id="pH4jSq1vHjbk4k55vory">
+    <mxGraphModel dx="661" dy="877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8rycqrCk4AuXxEZ8GZv0-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8rycqrCk4AuXxEZ8GZv0-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="155" y="255" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8rycqrCk4AuXxEZ8GZv0-4" value="M" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="130" y="260" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8rycqrCk4AuXxEZ8GZv0-5" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="280" as="sourcePoint" />
+            <mxPoint x="120" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8rycqrCk4AuXxEZ8GZv0-6" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="280" as="sourcePoint" />
+            <mxPoint x="320" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8rycqrCk4AuXxEZ8GZv0-7" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="280" as="sourcePoint" />
+            <mxPoint x="320" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8rycqrCk4AuXxEZ8GZv0-8" value="" style="verticalLabelPosition=bottom;align=center;outlineConnect=0;dashed=0;html=1;verticalAlign=top;shape=mxgraph.pid.flow_sensors.flow_nozzle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="310" y="220" width="20" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="8rycqrCk4AuXxEZ8GZv0-9" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="319.71" y="222" as="sourcePoint" />
+            <mxPoint x="319.71" y="182" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8rycqrCk4AuXxEZ8GZv0-10" value="Meter Under Test" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8rycqrCk4AuXxEZ8GZv0-11" value="Sonic Nozzle" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="217.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8rycqrCk4AuXxEZ8GZv0-12" value="Gas Blown to Atmosphere" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
