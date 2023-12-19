@@ -22,7 +22,7 @@ The question now becomes, if making the ideal gas assumption is bad for our use 
 2. Temperature - Supercompressibility increases with decreasing temperature because the molecules get closer together.
 3. Gas Composition/Quality - This has a mixed effect on supercompressibility, but in general, the more oblong molecules (longer chain hydrocarbons) there are, the more it deviates from ideal.
 
-Supercompressibility for this book will be referred to as $z$; however, other natural gas text and industries may refer to F<sub>pv</sub>, which is the square root of $z$.  When using supercompressibility with the ideal gas equation, the overall equation typically looks like this:
+Supercompressibility for this book will be referred to as $z$; however, other natural gas texts and industry texts may refer to F<sub>pv</sub>, which is the square root of $z$. The reason $z$ is used in this book over F<sub>pv</sub> is that $z$ gives a more direct comparison to ideal gas.  For example, a z of 1.1 means that there are 10% more molecules present compared to the ideal gas equation.  When using supercompressibility with the ideal gas equation, the overall equation typically looks like this:
 
 \begin{gather*}
 \\

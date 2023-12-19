@@ -113,7 +113,7 @@ This problem has been becoming even more complex over the years with the additio
 Tariffs refer to the rates and fees charged by natural gas pipelines and utilities for their services transporting and distributing natural gas. Tariffs are established by pipelines and utility companies and approved by regulatory agencies like FERC or state public utility commissions.  A typical component of these tariffs is to include a statement about about the gas quality inside of the pipeline.  These set boundaries for the quality of gas that the pipeline operates within and acts as a goal to achieve "pipeline quality" gas.  Pipeline quality gas is a vague term and differs from company to company, but is typically meant to refer to gas that is within the acceptable limits of the operators tariff.  The table below shows a few examples of what restrictions tariffs may have on gas quality.
 
 |Pipeline|Heat Value BTU/SCF: Min/Max|Oxygen: Max %|Total Inerts: Max %|Carbon Dioxide: Max %|Nitrogen: Max%|Liquefiable Hydrocarbon Dew Point|Hydrogen Sulfide Max Gr/100 CF|Total Sulfur: Max Gr/100 CF|
-|---|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|---|
 |Company A|Dry Gas: 987/1100|0.20%|5.00%|3.00%|4.00%|Free of hydrocarbons in liquid form| 0.25 Gr | 20 Gr.|
 |Company B|967/1110|0.10%|4.00% (carbon dioxide and nitrogen)|3.00%|3.00%|Max 0.05 GPM of C6+ hydrocarbons|0.25 Gr|20 Gr|
 |Company C|970/-|0.20%|4.00% total inerts/0.10% carbon monoxide|2.50%|-|Free of hydrocarbons in liquid form|0.30 Gr|10 Gr|
