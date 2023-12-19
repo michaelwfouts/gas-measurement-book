@@ -1,6 +1,6 @@
 To build the book via anaconda, use Anaconda Prompt and navigate to the correct 
 directory where you cloned the repo locally.  From one folder up, run `jb build gas-measurement-book`.
-This will build the book and any changes.
+This will build the book and any changes. Next, push the changes to the main branch in GitHub.
 
 To push to GitHub Pages for public viewing, using the `ghp-import` library, run 
 `ghp-import -n -p -f _build/html` from the main branch of the root directory (different
