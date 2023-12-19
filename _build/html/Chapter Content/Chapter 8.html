@@ -1,48 +1,60 @@
 
+
 <!DOCTYPE html>
 
-<html>
+
+<html lang="en" data-content_root="" >
+
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>Chapter 8: Meters &#8212; Gas Measurement For Technicians</title>
-    
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+  <link href="../_static/styles/theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
 
-    
-  <link rel="stylesheet"
-    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
-  <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
-  <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=5b4479735964841361fd" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
-    
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=5b4479735964841361fd" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=5b4479735964841361fd"></script>
 
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../_static/doctools.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
-    <script src="../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="../_static/togglebutton.js"></script>
-    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
 const thebe_selector = ".thebe,.cell"
@@ -52,61 +64,104 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Chapter Content/Chapter 8';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Appendix" href="../Appendix/Appendix.html" />
     <link rel="prev" title="Chapter 7: Instrumentation" href="Chapter%207.html" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="None">
-    
-
-    <!-- Google Analytics -->
-    
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
-<!-- Checkboxes to toggle the left sidebar -->
-<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
-<label class="overlay overlay-navbar" for="__navigation">
-    <div class="visually-hidden">Toggle navigation sidebar</div>
-</label>
-<!-- Checkboxes to toggle the in-page toc -->
-<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
-<label class="overlay overlay-pagetoc" for="__page-toc">
-    <div class="visually-hidden">Toggle in-page Table of Contents</div>
-</label>
-<!-- Headers at the top -->
-<div class="announcement header-item noprint"></div>
-<div class="header header-item noprint"></div>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
 
-    
-    <div class="container-fluid" id="banner"></div>
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
 
-    
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
 
-    <div class="container-xl">
-      <div class="row">
-          
-<!-- Sidebar -->
-<div class="bd-sidebar noprint" id="site-navigation">
-    <div class="bd-sidebar__content">
-        <div class="bd-sidebar__top"><div class="navbar-brand-box">
-    <a class="navbar-brand text-wrap" href="../index.html">
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
       
-        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+      <div class="bd-sidebar-primary bd-sidebar">
         
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+  
+    
+    
       
-      
-      <img src="../_static/gas-measurement-logo.png" class="logo" alt="logo">
-      
-      
-      <h1 class="site-logo" id="site-title">Gas Measurement For Technicians</h1>
-      
-    </a>
-</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
-  <i class="icon fas fa-search"></i>
-  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
-</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
-    <div class="bd-toc-item active">
+    
+    
+    <img src="../_static/gas-measurement-logo.png" class="logo__image only-light" alt="Gas Measurement For Technicians - Home"/>
+    <script>document.write(`<img src="../_static/gas-measurement-logo.png" class="logo__image only-dark" alt="Gas Measurement For Technicians - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
@@ -116,427 +171,251 @@ const thebe_selector_output = ".output, .cell_output"
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="Chapter%201.html">
-   Chapter 1: How the Gas Industry Works
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="Chapter%202.html">
-   Chapter 2: Safety
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="Chapter%203.html">
-   Chapter 3: The Chemistry of Gas Measurement
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="Chapter%204.html">
-   Chapter 4: The Basic Math of Gas Measurement
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="Chapter%205.html">
-   Chapter 5: Gas Quality
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="Chapter%206.html">
-   Chapter 6: Real Gases
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="Chapter%207.html">
-   Chapter 7: Instrumentation
-  </a>
- </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
-   Chapter 8: Meters
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../Appendix/Appendix.html">
-   Appendix
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../References/References.html">
-   References
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../Appendix/Author.html">
-   About the Author
-  </a>
- </li>
+<li class="toctree-l1"><a class="reference internal" href="Chapter%201.html">Chapter 1: How the Gas Industry Works</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Chapter%202.html">Chapter 2: Safety</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Chapter%203.html">Chapter 3: The Chemistry of Gas Measurement</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Chapter%204.html">Chapter 4: The Basic Math of Gas Measurement</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Chapter%205.html">Chapter 5: Gas Quality</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Chapter%206.html">Chapter 6: Real Gases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Chapter%207.html">Chapter 7: Instrumentation</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Chapter 8: Meters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Appendix/Appendix.html">Appendix</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../References/References.html">References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Appendix/Author.html">About the Author</a></li>
 </ul>
 
     </div>
 </nav></div>
-        <div class="bd-sidebar__bottom">
-             <!-- To handle the deprecated key -->
-            
-            <div class="navbar_extra_footer">
-            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
-            </div>
-            
-        </div>
     </div>
-    <div id="rtd-footer-container"></div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FChapter Content/Chapter 8.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
 </div>
 
 
-          
-
-
-          
-<!-- A tiny helper pixel to detect if we've scrolled -->
-<div class="sbt-scroll-pixel-helper"></div>
-<!-- Main content -->
-<div class="col py-0 content-container">
-    
-    <div class="header-article row sticky-top noprint">
-        
 
 
 
-<div class="col py-1 d-flex header-article-main">
-    <div class="header-article__left">
-        
-        <label for="__navigation"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="right"
-title="Toggle navigation"
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/Chapter Content/Chapter 8.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
 >
   
 
-<span class="headerbtn__icon-container">
-  <i class="fas fa-bars"></i>
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
   </span>
-
-</label>
-
-        
-    </div>
-    <div class="header-article__right">
-<button onclick="toggleFullScreen()"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="bottom"
-title="Fullscreen mode"
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
 >
   
 
-<span class="headerbtn__icon-container">
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
   <i class="fas fa-expand"></i>
   </span>
 
 </button>
 
-<div class="menu-dropdown menu-dropdown-repository-buttons">
-  <button class="headerbtn menu-dropdown__trigger"
-      aria-label="Source repositories">
-      <i class="fab fa-github"></i>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
   </button>
-  <div class="menu-dropdown__content">
-    <ul>
-      <li>
-        <a href="https://github.com/executablebooks/jupyter-book"
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="left"
-title="Source repository"
->
-  
+`);
+</script>
 
-<span class="headerbtn__icon-container">
-  <i class="fab fa-github"></i>
-  </span>
-<span class="headerbtn__text-container">repository</span>
-</a>
 
-      </li>
-      
-      <li>
-        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FChapter Content/Chapter 8.html&body=Your%20issue%20content%20here."
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="left"
-title="Open an issue"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-lightbulb"></i>
-  </span>
-<span class="headerbtn__text-container">open issue</span>
-</a>
-
-      </li>
-      
-    </ul>
-  </div>
-</div>
-
-<div class="menu-dropdown menu-dropdown-download-buttons">
-  <button class="headerbtn menu-dropdown__trigger"
-      aria-label="Download this page">
-      <i class="fas fa-download"></i>
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
-  <div class="menu-dropdown__content">
-    <ul>
-      <li>
-        <a href="../_sources/Chapter Content/Chapter 8.md"
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="left"
-title="Download source file"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-file"></i>
-  </span>
-<span class="headerbtn__text-container">.md</span>
-</a>
-
-      </li>
-      
-      <li>
-        
-<button onclick="printPdf(this)"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="left"
-title="Print to PDF"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-file-pdf"></i>
-  </span>
-<span class="headerbtn__text-container">.pdf</span>
-</button>
-
-      </li>
-      
-    </ul>
-  </div>
-</div>
-<label for="__page-toc"
-  class="headerbtn headerbtn-page-toc"
-  
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-list"></i>
-  </span>
-
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
 </label>
-
+</div></div>
+      
     </div>
+  
 </div>
-
-<!-- Table of contents -->
-<div class="col-md-3 bd-toc show noprint">
-    <div class="tocsection onthispage pt-5 pb-3">
-        <i class="fas fa-list"></i> Contents
-    </div>
-    <nav id="bd-toc-nav" aria-label="Page">
-        <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#meters">
-   Meters
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#turndown-ratio">
-   Turndown Ratio
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#meter-types">
-   Meter Types
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#positive-displacement-meters">
-     Positive Displacement Meters
-    </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#diaphragm-meters">
-       Diaphragm Meters
-      </a>
-     </li>
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#rotary-meters">
-       Rotary Meters
-      </a>
-     </li>
-    </ul>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#orifice-meters">
-     Orifice Meters
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#turbine-meters">
-     Turbine Meters
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#coriolis-meters">
-     Coriolis Meters
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ultrasonic-meters">
-     Ultrasonic Meters
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#summary-table">
-     Summary Table
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#testing-procedures">
-   Testing Procedures
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#proving">
-     Proving
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#questions">
-   Questions
-  </a>
- </li>
-</ul>
-
-    </nav>
 </div>
-    </div>
-    <div class="article row">
-        <div class="col pl-md-3 pl-lg-5 content-container">
-            <!-- Table of contents that is only displayed when printing the page -->
-            <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Chapter 8: Meters</h1>
-                <!-- Table of contents -->
-                <div id="print-main-content">
-                    <div id="jb-print-toc">
-                        
-                        <div>
-                            <h2> Contents </h2>
-                        </div>
-                        <nav aria-label="Page">
-                            <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#meters">
-   Meters
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#turndown-ratio">
-   Turndown Ratio
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#meter-types">
-   Meter Types
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#positive-displacement-meters">
-     Positive Displacement Meters
-    </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#diaphragm-meters">
-       Diaphragm Meters
-      </a>
-     </li>
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#rotary-meters">
-       Rotary Meters
-      </a>
-     </li>
-    </ul>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#orifice-meters">
-     Orifice Meters
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#turbine-meters">
-     Turbine Meters
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#coriolis-meters">
-     Coriolis Meters
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ultrasonic-meters">
-     Ultrasonic Meters
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#summary-table">
-     Summary Table
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#testing-procedures">
-   Testing Procedures
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#proving">
-     Proving
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#questions">
-   Questions
-  </a>
- </li>
-</ul>
+              
+              
 
-                        </nav>
-                    </div>
-                </div>
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Chapter 8: Meters</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
             </div>
-            <main id="main-content" role="main">
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#meters">Meters</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#turndown-ratio">Turndown Ratio</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#meter-types">Meter Types</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#positive-displacement-meters">Positive Displacement Meters</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#diaphragm-meters">Diaphragm Meters</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#rotary-meters">Rotary Meters</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#orifice-meters">Orifice Meters</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#turbine-meters">Turbine Meters</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#coriolis-meters">Coriolis Meters</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ultrasonic-meters">Ultrasonic Meters</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#summary-table">Summary Table</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#testing-procedures">Testing Procedures</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#proving">Proving</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#questions">Questions</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
                 
-              <div>
-                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
   <section class="tex2jax_ignore mathjax_ignore" id="chapter-8-meters">
-<h1>Chapter 8: Meters<a class="headerlink" href="#chapter-8-meters" title="Permalink to this headline">#</a></h1>
+<h1>Chapter 8: Meters<a class="headerlink" href="#chapter-8-meters" title="Permalink to this heading">#</a></h1>
 <section id="meters">
-<h2>Meters<a class="headerlink" href="#meters" title="Permalink to this headline">#</a></h2>
+<h2>Meters<a class="headerlink" href="#meters" title="Permalink to this heading">#</a></h2>
 <p>Meters are essential devices in natural gas measurement. Typically, they directly quantify the volumetric flow rate (ACF) of gas in a pipeline or process system.  Each works on different operating principles to measure real-time flow with precision and accuracy. Meters have specialized sensor designs, materials, and electronics to provide stable and reliable data.  This chapter serves as an introduction to each of these types of meters and their pros and cons.</p>
 </section>
 <section id="turndown-ratio">
-<h2>Turndown Ratio<a class="headerlink" href="#turndown-ratio" title="Permalink to this headline">#</a></h2>
+<h2>Turndown Ratio<a class="headerlink" href="#turndown-ratio" title="Permalink to this heading">#</a></h2>
 <p>While most people can intuitively understand the maximum flow rate limitations of meters (such as pipe size), what is often much less understood is the minimum flow rate limitations.  Depending on the technology of the meter (sensing elements) there is a low limit at which the sensing device can no longer differentiate a flow from the normal background noise in the process.  This has many factors that contribute to it, such as the resolution of the sensors, changes in fluid dynamics through the meters, and statistical uncertainty.  Some meters can have quite high minimum flow rates meaning that without proper design, gas can flow by undetected by the meters, resulting in improper billing.  The term typically used to describe the range of a meter is the turndown ratio.  The turndown ratio is simply the maximum flow rate divided by the minimum flow rate as shown below.</p>
 <div class="amsmath math notranslate nohighlight">
 \[\begin{gather*}
@@ -546,50 +425,50 @@ Turndown \: Ratio = \frac{Maximum \: Flowrate}{Minimum \: Flowrate} \\
 <p>With large changes in flow rate over a station’s lifetime being quite common, the design of the measurement station can vary greatly.  Due to large uncertainty with initial estimates as times, meters with larger turndown ratios will typically be preferred over those with smaller ones.  However, every station should be designed on a case-by-case basis by an engineer.</p>
 </section>
 <section id="meter-types">
-<h2>Meter Types<a class="headerlink" href="#meter-types" title="Permalink to this headline">#</a></h2>
+<h2>Meter Types<a class="headerlink" href="#meter-types" title="Permalink to this heading">#</a></h2>
 <p>There are several types of meters to measure the actual volume of gas flowing through a pipeline, each with distinct advantages and disadvantages.  This section is meant to provide a brief overview of the different meters out there to give an understanding of what is currently used and why.</p>
 <section id="positive-displacement-meters">
-<h3>Positive Displacement Meters<a class="headerlink" href="#positive-displacement-meters" title="Permalink to this headline">#</a></h3>
+<h3>Positive Displacement Meters<a class="headerlink" href="#positive-displacement-meters" title="Permalink to this heading">#</a></h3>
 <p>Positive displacement meters work by mechanically confining and moving fixed volumes of gas through the meter body. As gas fills a chamber of known volume, that captured volume is forced through the meter into the downstream line. This directly measures the flow in volumes over time.</p>
 <p>A metaphor that helps explain how this works involves filling up an empty pool with a 5-gallon bucket.  If you put a single 5-gallon bucket of water in the pool, the pool now has 5 gallons of water.  If you put three 5-gallon buckets of water in an empty pool, you now have 15 gallons of water in the pool.  Positive displacement meters work by forming some confined space of fixed volume and noting how many times that bucket of volume gets moved.  The two types that will be discussed here are diaphragm and rotary meters.</p>
 <section id="diaphragm-meters">
-<h4>Diaphragm Meters<a class="headerlink" href="#diaphragm-meters" title="Permalink to this headline">#</a></h4>
+<h4>Diaphragm Meters<a class="headerlink" href="#diaphragm-meters" title="Permalink to this heading">#</a></h4>
 <p>Diaphragm meters are a type of positive displacement flow meter used for natural gas measurement. They contain two or more flexible diaphragms that move back and forth. As gas fills the chambers behind the diaphragms, it displaces and flexes them. The diaphragms then recoil, forcing the gas through the meter.  This oscillating diaphragm action essentially divides the gas into fixed packets of known volume. The number of diaphragm cycles indicates the total volume passed.</p>
 <p>Diaphragm meters  are typically used in low flow applications (0.5 to 10 MSCFD) and low pressure applications (5-10 psig).  However, they do boast one of the highest turndown ratios at 80:1 due to the fact that they can measure incredibly small volumes (known as pilot loads).  The typical application includes house meters used in residential applications.  They are very cheap and have a high accuracy; however, due to the low pressure, sometimes sediment or water can fill the diaphragms, resulting in over measuring and due to the low flow requirements, these are used in limited applications.</p>
 </section>
 <section id="rotary-meters">
-<h4>Rotary Meters<a class="headerlink" href="#rotary-meters" title="Permalink to this headline">#</a></h4>
+<h4>Rotary Meters<a class="headerlink" href="#rotary-meters" title="Permalink to this heading">#</a></h4>
 <p>Rotary meters are a type of positive displacement flow meter used extensively for natural gas measurement. They contain two figure-8 shaped impellers mounted on a rotating shaft inside the meter body. As gas passes through, it causes the impellers to spin proportionally to the flow rate.The impeller shaft drives gears connected to a counter. The number of impeller revolutions indicates the total gas volume.</p>
 <p>Rotary Meters are typically used in low to medium flow applications (5-1000 MSCFD), but with a very flexible pressure range from 20-1480 psig depending on the model.  Rotary meters have a mediume turndown ratio, ranging from 10:1 to 80:1.  Applications include store meters (Walmarts/Warehouses) and low flow measurement for producers.  These meters are relatively cheap and due to the wide pressure ranges of the meters, can be used in a wide variety of applications.  Due to the mechanical nature of the meters, they can be maintained for long lifespans; however, industry is shifting away from repair in favor of replace where the economics make sense.  However, this meter can lock up if spun too fast and requires some maintenance to keep accuracy high.</p>
 </section>
 </section>
 <section id="orifice-meters">
-<h3>Orifice Meters<a class="headerlink" href="#orifice-meters" title="Permalink to this headline">#</a></h3>
+<h3>Orifice Meters<a class="headerlink" href="#orifice-meters" title="Permalink to this heading">#</a></h3>
 <p>Orifice meters are a common flow measurement technology relying on differential pressure created by gas passing through an opening. They contain an orifice plate with a circular opening inserted into the flow. This creates a restriction that increases velocity and reduces pressure.  The differential pressure between upstream and downstream of the orifice is measured and indicates flow rate. Orifice meters work based on the principals of conservation of energy and continuity of flow.  The following video gives a good visualization of how an orifice meter works.</p>
 <p><a class="reference external" href="https://www.youtube.com/watch?v=oUd4WxjoHKY">https://www.youtube.com/watch?v=oUd4WxjoHKY</a></p>
 <p>Orifice meters are used in low to medium flow applications (200 to 3000 MSCFD) and medium to high pressure applications (150-1480 psig).  The critical downfall of orifice meters is that they have a very low turndown ratio of 3:1.  They do offer some flexibility as orifice plates, which are typically very cheap, can be changed out to better match predicted flow rates, this still requires manual intervention and additional design.  They are typically used with producers as the plates are easy to pull and clean when dealing with dirty gas and in transmission application when cheap measurement is needed.  The advantages of the orifice meter includes the fact that it is cheap and with certain meter designs, can have the plate taken out during operation without blowing down the pipeline to verify accuracy and perform maintenance.  However, these meters typically have a higher measurement error (2%) compared to other systems.  The plates are easy to have chipped or dirtied and there is no technology to identify these and routine maintenance is needed to verify.  It also creates a permanent pressure drop (though not always an issue) and the low turndown ratio makes them only able to be used in very set flow rate applications.</p>
 </section>
 <section id="turbine-meters">
-<h3>Turbine Meters<a class="headerlink" href="#turbine-meters" title="Permalink to this headline">#</a></h3>
+<h3>Turbine Meters<a class="headerlink" href="#turbine-meters" title="Permalink to this heading">#</a></h3>
 <p>Turbine meters work by using the flow of gas to spin a turbine rotor inside the meter body. The rotor turns a shaft coupled to a magnetic pickup or mechanical counter that generates output pulses proportional to frequency of rotation.  As velocity increases, the rotor spins faster. The rotation rate measured by the frequency sensor corresponds to the gas flow rate.</p>
 <p>Turbine meters are used in medium to high flow applications (100-10,000 MSCFD) and medium to high pressure applications (150-1480 psig).  They have a lower turndown ratio at about 10:1, mostly due to the fact that there is a high amount of error at very low flows.  They are used in producer high flow applications and transmission medium/high flow applications.  However, current designs are often using ultrasonic meters instead of turbine meters in new installations where economics makes sense. These meters typically have swappable turbine modules should they need to be replaced, which makes offsite maintenance easy.  However, due to the mechanical nature of these meters, they typically create issues in application.  Most common is that when testing these meters, the meter run will be blown down too quickly resulting in damage to the blades of the meter that go undiagnosed.  The meters also require oiling in order to keep the mechanical parts in good shape.</p>
 </section>
 <section id="coriolis-meters">
-<h3>Coriolis Meters<a class="headerlink" href="#coriolis-meters" title="Permalink to this headline">#</a></h3>
+<h3>Coriolis Meters<a class="headerlink" href="#coriolis-meters" title="Permalink to this heading">#</a></h3>
 <p>Coriolis meters operate differently than any other meter on this list.  They measure mass flow directly (instead of actual volume) by using oscillating tubes that bend and twist in response to the momentum of the flowing fluid.  This means they are able to directly measure a SCF value without temperature or pressure transmitters. As gas passes through vibrating tubes, it causes deflections proportional to mass flow.  Sensors on the inlet and outlet tubes measure the resulting phase difference. This difference is caused by the Coriolis effect from the gas momentum and indicates mass flow.</p>
 <p><a class="reference external" href="https://www.youtube.com/watch?v=XIIViaNITIw">https://www.youtube.com/watch?v=XIIViaNITIw</a></p>
 <p>Coriolis meters can be used for very low to high flow rates, but typically are only used in very low to medium flows (10-3,000 MSCFD).  The pressure ratings range from 150-1480 psig.  Coriolis meters boast the highest turndown ratio of any meter on this list because they are able to measure very small flow rates.  These meters are used in transmission low flow as well as refineries and chemical plants.  These meters are the first on the list that are considered “Smart Meters” meaning they have several auxiliary sensors to run diagnostics on the meter’s health which can be remotely read without being on-site.  Additionally, there is logic to point out issues and suggest courses of action within the meter.  These meters are additionally very accurate.  However, the major drawback of these meters is their cost, typically being several times that as other alternatives.</p>
 </section>
 <section id="ultrasonic-meters">
-<h3>Ultrasonic Meters<a class="headerlink" href="#ultrasonic-meters" title="Permalink to this headline">#</a></h3>
+<h3>Ultrasonic Meters<a class="headerlink" href="#ultrasonic-meters" title="Permalink to this heading">#</a></h3>
 <p>Ultrasonic flow meters measure flow rate by sending ultrasonic sound waves diagonally across a pipe through the flowing gas. This creates a small time difference between the upsteam and downstream signals that indicates flow velocity.  They work by measuring the transmission time difference between upstream and downstream ultrasonic pulses. This transit time difference is proportional to flow velocity. The cross-sectional area of the pipe yields the volumetric flow rate.</p>
 <p><a class="reference external" href="https://www.youtube.com/watch?v=Bx2RnrfLkQg">https://www.youtube.com/watch?v=Bx2RnrfLkQg</a></p>
 <p>Ultrasonic meters are used for medium to very high flow rates (500-300,000 MSCFD) and medium to high pressure applications (150-1480 psig).  One of the limiting factors of this technology is that it can’t accurately measure at lower pressures.  It has a respectable turndown ratio of 50:1.  Applications include transmission high flow.  This is another smart meter, gathering several diagnostics about the component operations to identify if there are any issues with measurement before they happen.  Ultrasonic meters are considered high accuracy meters and boast the fact that there are no moving parts in the meter, allowing it to be full line.  However, this meter is very expensive and if anything does go wrong with it, the meter tube needs to be rolled out to inspect the inside, which can cause calibration concerns due to misalignment during reinstallation.</p>
 </section>
 <section id="summary-table">
-<h3>Summary Table<a class="headerlink" href="#summary-table" title="Permalink to this headline">#</a></h3>
+<h3>Summary Table<a class="headerlink" href="#summary-table" title="Permalink to this heading">#</a></h3>
 <p>Below is a quick look at each meter, comparing their capabilities.</p>
-<table class="colwidths-auto table">
+<table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>Category</p></th>
 <th class="head"><p>Diaphragm</p></th>
@@ -662,12 +541,12 @@ Turndown \: Ratio = \frac{Maximum \: Flowrate}{Minimum \: Flowrate} \\
 </section>
 </section>
 <section id="testing-procedures">
-<h2>Testing Procedures<a class="headerlink" href="#testing-procedures" title="Permalink to this headline">#</a></h2>
+<h2>Testing Procedures<a class="headerlink" href="#testing-procedures" title="Permalink to this heading">#</a></h2>
 <p>Every meter has its unique testing procedure.  This book does not contain all the individual testing methodologies, but it does cover one of the most common testing methods known as proving.</p>
 <section id="proving">
-<h3>Proving<a class="headerlink" href="#proving" title="Permalink to this headline">#</a></h3>
+<h3>Proving<a class="headerlink" href="#proving" title="Permalink to this heading">#</a></h3>
 <p>A meter prover is a specialized calibration device used to validate the accuracy of gas flow meters. Provers provide an independent, traceable measurement standard against which a meter is checked.  Each utilizes a calibrated reference volume to compare meter readings.  Two of the most common proving devices are the master meter and the sonic nozzle.</p>
-<ol class="simple">
+<ol class="arabic simple">
 <li><p>Master Meter (Transfer Prover) - A master meter is a highly accurate reference flow meter used as a field proving standard. It is installed in series with the meter under test. The master meter and test meter measure the same flow.  By comparing volumes measured by the master meter against those measured by the test meter, a meter calibration factor can be derived. This corrects for any error in the test meter at various flowrates.  A figure of this configuration can be seen below</p></li>
 </ol>
 <figure class="align-default" id="master-meter">
@@ -676,7 +555,7 @@ Turndown \: Ratio = \frac{Maximum \: Flowrate}{Minimum \: Flowrate} \\
 <p><span class="caption-number">Fig. 2 </span><span class="caption-text">Two Valve Manifold Diagram</span><a class="headerlink" href="#master-meter" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
-<ol class="simple">
+<ol class="arabic simple" start="2">
 <li><p>Sonic Nozzle - A sonic nozzle prover is a gas flow calibration standard that utilizes a smoothly contoured convergent-divergent nozzle to create a choked sonic flow. Typically, natural gas from the pipeline is used for testing.  This gas accelerates through the narrowed throat of the nozzle, reaching sonic velocity, a constant given gas conditions.  This creates a fixed flow area and constant mass flow rate dependent only on upstream pressure and temperature. The exact flow is calculated from the inlet gas conditions based on rigorous models.  A figure of this configuration can be seen below.</p></li>
 </ol>
 <figure class="align-default" id="sonic-nozzle">
@@ -689,8 +568,8 @@ Turndown \: Ratio = \frac{Maximum \: Flowrate}{Minimum \: Flowrate} \\
 </section>
 </section>
 <section id="questions">
-<h2>Questions<a class="headerlink" href="#questions" title="Permalink to this headline">#</a></h2>
-<ol class="simple">
+<h2>Questions<a class="headerlink" href="#questions" title="Permalink to this heading">#</a></h2>
+<ol class="arabic simple">
 <li><p>Please briefly describe how a positive displacement meter works.  Name the two main types of positive displacement meters and list the pros and cons of each.</p></li>
 <li><p>Please briefly describe how an orifice meter works.  Additionally, describe the pros and cons of an orifice meter.</p></li>
 <li><p>Please briefly describe how a turbine meter works.  Additionally, describe the pros and cons of a turbine meter.</p></li>
@@ -721,50 +600,121 @@ Turndown \: Ratio = \frac{Maximum \: Flowrate}{Minimum \: Flowrate} \\
     </script>
     <script>kernelName = 'python3'</script>
 
-              </div>
+                </article>
               
-            </main>
-            <footer class="footer-article noprint">
-                
-    <!-- Previous / next buttons -->
-<div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="Chapter%207.html" title="previous page">
-        <i class="fas fa-angle-left"></i>
-        <div class="prev-next-info">
-            <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Chapter 7: Instrumentation</p>
-        </div>
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="Chapter%207.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Chapter 7: Instrumentation</p>
+      </div>
     </a>
-    <a class='right-next' id="next-link" href="../Appendix/Appendix.html" title="next page">
-    <div class="prev-next-info">
+    <a class="right-next"
+       href="../Appendix/Appendix.html"
+       title="next page">
+      <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
         <p class="prev-next-title">Appendix</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
-            </footer>
-        </div>
-    </div>
-    <div class="footer-content row">
-        <footer class="col footer"><p>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#meters">Meters</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#turndown-ratio">Turndown Ratio</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#meter-types">Meter Types</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#positive-displacement-meters">Positive Displacement Meters</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#diaphragm-meters">Diaphragm Meters</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#rotary-meters">Rotary Meters</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#orifice-meters">Orifice Meters</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#turbine-meters">Turbine Meters</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#coriolis-meters">Coriolis Meters</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ultrasonic-meters">Ultrasonic Meters</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#summary-table">Summary Table</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#testing-procedures">Testing Procedures</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#proving">Proving</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#questions">Questions</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
   
-    By Michael Fouts<br/>
-  
-      &copy; Copyright 2022.<br/>
-</p>
-        </footer>
-    </div>
+  <div class="footer-item">
     
+<p class="component-author">
+By Michael Fouts
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
 </div>
+          </footer>
+        
 
-
-      </div>
+      </main>
     </div>
+  </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=5b4479735964841361fd"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd"></script>
 
-
+  <footer class="bd-footer">
+  </footer>
   </body>
 </html>

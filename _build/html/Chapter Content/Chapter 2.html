@@ -1,48 +1,60 @@
 
+
 <!DOCTYPE html>
 
-<html>
+
+<html lang="en" data-content_root="" >
+
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>Chapter 2: Safety &#8212; Gas Measurement For Technicians</title>
-    
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+  <link href="../_static/styles/theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
 
-    
-  <link rel="stylesheet"
-    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
-  <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
-  <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=5b4479735964841361fd" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
-    
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=5b4479735964841361fd" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=5b4479735964841361fd"></script>
 
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../_static/doctools.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
-    <script src="../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="../_static/togglebutton.js"></script>
-    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
 const thebe_selector = ".thebe,.cell"
@@ -50,61 +62,104 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Chapter Content/Chapter 2';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Chapter 3: The Chemistry of Gas Measurement" href="Chapter%203.html" />
     <link rel="prev" title="Chapter 1: How the Gas Industry Works" href="Chapter%201.html" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="None">
-    
-
-    <!-- Google Analytics -->
-    
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
-<!-- Checkboxes to toggle the left sidebar -->
-<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
-<label class="overlay overlay-navbar" for="__navigation">
-    <div class="visually-hidden">Toggle navigation sidebar</div>
-</label>
-<!-- Checkboxes to toggle the in-page toc -->
-<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
-<label class="overlay overlay-pagetoc" for="__page-toc">
-    <div class="visually-hidden">Toggle in-page Table of Contents</div>
-</label>
-<!-- Headers at the top -->
-<div class="announcement header-item noprint"></div>
-<div class="header header-item noprint"></div>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
 
-    
-    <div class="container-fluid" id="banner"></div>
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
 
-    
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
 
-    <div class="container-xl">
-      <div class="row">
-          
-<!-- Sidebar -->
-<div class="bd-sidebar noprint" id="site-navigation">
-    <div class="bd-sidebar__content">
-        <div class="bd-sidebar__top"><div class="navbar-brand-box">
-    <a class="navbar-brand text-wrap" href="../index.html">
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
       
-        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+      <div class="bd-sidebar-primary bd-sidebar">
         
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+  
+    
+    
       
-      
-      <img src="../_static/gas-measurement-logo.png" class="logo" alt="logo">
-      
-      
-      <h1 class="site-logo" id="site-title">Gas Measurement For Technicians</h1>
-      
-    </a>
-</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
-  <i class="icon fas fa-search"></i>
-  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
-</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
-    <div class="bd-toc-item active">
+    
+    
+    <img src="../_static/gas-measurement-logo.png" class="logo__image only-light" alt="Gas Measurement For Technicians - Home"/>
+    <script>document.write(`<img src="../_static/gas-measurement-logo.png" class="logo__image only-dark" alt="Gas Measurement For Technicians - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
@@ -114,366 +169,239 @@ const thebe_selector_output = ".output, .cell_output"
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="Chapter%201.html">
-   Chapter 1: How the Gas Industry Works
-  </a>
- </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
-   Chapter 2: Safety
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="Chapter%203.html">
-   Chapter 3: The Chemistry of Gas Measurement
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="Chapter%204.html">
-   Chapter 4: The Basic Math of Gas Measurement
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="Chapter%205.html">
-   Chapter 5: Gas Quality
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="Chapter%206.html">
-   Chapter 6: Real Gases
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="Chapter%207.html">
-   Chapter 7: Instrumentation
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="Chapter%208.html">
-   Chapter 8: Meters
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../Appendix/Appendix.html">
-   Appendix
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../References/References.html">
-   References
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../Appendix/Author.html">
-   About the Author
-  </a>
- </li>
+<li class="toctree-l1"><a class="reference internal" href="Chapter%201.html">Chapter 1: How the Gas Industry Works</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Chapter 2: Safety</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Chapter%203.html">Chapter 3: The Chemistry of Gas Measurement</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Chapter%204.html">Chapter 4: The Basic Math of Gas Measurement</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Chapter%205.html">Chapter 5: Gas Quality</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Chapter%206.html">Chapter 6: Real Gases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Chapter%207.html">Chapter 7: Instrumentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Chapter%208.html">Chapter 8: Meters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Appendix/Appendix.html">Appendix</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../References/References.html">References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Appendix/Author.html">About the Author</a></li>
 </ul>
 
     </div>
 </nav></div>
-        <div class="bd-sidebar__bottom">
-             <!-- To handle the deprecated key -->
-            
-            <div class="navbar_extra_footer">
-            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
-            </div>
-            
-        </div>
     </div>
-    <div id="rtd-footer-container"></div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FChapter Content/Chapter 2.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
 </div>
 
 
-          
-
-
-          
-<!-- A tiny helper pixel to detect if we've scrolled -->
-<div class="sbt-scroll-pixel-helper"></div>
-<!-- Main content -->
-<div class="col py-0 content-container">
-    
-    <div class="header-article row sticky-top noprint">
-        
 
 
 
-<div class="col py-1 d-flex header-article-main">
-    <div class="header-article__left">
-        
-        <label for="__navigation"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="right"
-title="Toggle navigation"
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/Chapter Content/Chapter 2.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
 >
   
 
-<span class="headerbtn__icon-container">
-  <i class="fas fa-bars"></i>
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
   </span>
-
-</label>
-
-        
-    </div>
-    <div class="header-article__right">
-<button onclick="toggleFullScreen()"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="bottom"
-title="Fullscreen mode"
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
 >
   
 
-<span class="headerbtn__icon-container">
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
   <i class="fas fa-expand"></i>
   </span>
 
 </button>
 
-<div class="menu-dropdown menu-dropdown-repository-buttons">
-  <button class="headerbtn menu-dropdown__trigger"
-      aria-label="Source repositories">
-      <i class="fab fa-github"></i>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
   </button>
-  <div class="menu-dropdown__content">
-    <ul>
-      <li>
-        <a href="https://github.com/executablebooks/jupyter-book"
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="left"
-title="Source repository"
->
-  
+`);
+</script>
 
-<span class="headerbtn__icon-container">
-  <i class="fab fa-github"></i>
-  </span>
-<span class="headerbtn__text-container">repository</span>
-</a>
 
-      </li>
-      
-      <li>
-        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FChapter Content/Chapter 2.html&body=Your%20issue%20content%20here."
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="left"
-title="Open an issue"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-lightbulb"></i>
-  </span>
-<span class="headerbtn__text-container">open issue</span>
-</a>
-
-      </li>
-      
-    </ul>
-  </div>
-</div>
-
-<div class="menu-dropdown menu-dropdown-download-buttons">
-  <button class="headerbtn menu-dropdown__trigger"
-      aria-label="Download this page">
-      <i class="fas fa-download"></i>
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
-  <div class="menu-dropdown__content">
-    <ul>
-      <li>
-        <a href="../_sources/Chapter Content/Chapter 2.md"
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="left"
-title="Download source file"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-file"></i>
-  </span>
-<span class="headerbtn__text-container">.md</span>
-</a>
-
-      </li>
-      
-      <li>
-        
-<button onclick="printPdf(this)"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="left"
-title="Print to PDF"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-file-pdf"></i>
-  </span>
-<span class="headerbtn__text-container">.pdf</span>
-</button>
-
-      </li>
-      
-    </ul>
-  </div>
-</div>
-<label for="__page-toc"
-  class="headerbtn headerbtn-page-toc"
-  
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-list"></i>
-  </span>
-
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
 </label>
-
+</div></div>
+      
     </div>
+  
 </div>
-
-<!-- Table of contents -->
-<div class="col-md-3 bd-toc show noprint">
-    <div class="tocsection onthispage pt-5 pb-3">
-        <i class="fas fa-list"></i> Contents
-    </div>
-    <nav id="bd-toc-nav" aria-label="Page">
-        <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#organizations-involved-with-safety">
-   Organizations Involved with Safety
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#personal-protective-equipment-ppe">
-   Personal Protective Equipment (PPE)
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#safety-glasses">
-     Safety Glasses
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#safety-toe-work-shoes">
-     Safety Toe Work Shoes
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#head-protection">
-     Head Protection
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#flame-resistant-clothing-fr">
-     Flame Resistant Clothing (FR)
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#hearing-protection">
-     Hearing Protection
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#combustible-gas-indicators-cgis">
-     Combustible Gas Indicators (CGIs)
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#questions">
-   Questions
-  </a>
- </li>
-</ul>
-
-    </nav>
 </div>
-    </div>
-    <div class="article row">
-        <div class="col pl-md-3 pl-lg-5 content-container">
-            <!-- Table of contents that is only displayed when printing the page -->
-            <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Chapter 2: Safety</h1>
-                <!-- Table of contents -->
-                <div id="print-main-content">
-                    <div id="jb-print-toc">
-                        
-                        <div>
-                            <h2> Contents </h2>
-                        </div>
-                        <nav aria-label="Page">
-                            <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#organizations-involved-with-safety">
-   Organizations Involved with Safety
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#personal-protective-equipment-ppe">
-   Personal Protective Equipment (PPE)
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#safety-glasses">
-     Safety Glasses
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#safety-toe-work-shoes">
-     Safety Toe Work Shoes
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#head-protection">
-     Head Protection
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#flame-resistant-clothing-fr">
-     Flame Resistant Clothing (FR)
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#hearing-protection">
-     Hearing Protection
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#combustible-gas-indicators-cgis">
-     Combustible Gas Indicators (CGIs)
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#questions">
-   Questions
-  </a>
- </li>
-</ul>
+              
+              
 
-                        </nav>
-                    </div>
-                </div>
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Chapter 2: Safety</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
             </div>
-            <main id="main-content" role="main">
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#organizations-involved-with-safety">Organizations Involved with Safety</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#personal-protective-equipment-ppe">Personal Protective Equipment (PPE)</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#safety-glasses">Safety Glasses</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#safety-toe-work-shoes">Safety Toe Work Shoes</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#head-protection">Head Protection</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#flame-resistant-clothing-fr">Flame Resistant Clothing (FR)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hearing-protection">Hearing Protection</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#combustible-gas-indicators-cgis">Combustible Gas Indicators (CGIs)</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#questions">Questions</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
                 
-              <div>
-                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
   <section class="tex2jax_ignore mathjax_ignore" id="chapter-2-safety">
-<h1>Chapter 2: Safety<a class="headerlink" href="#chapter-2-safety" title="Permalink to this headline">#</a></h1>
+<h1>Chapter 2: Safety<a class="headerlink" href="#chapter-2-safety" title="Permalink to this heading">#</a></h1>
 <p>Process safety is a collective effort that involves everyone in the industry. I encourage you to embrace a safety-first mindset, prioritize continuous learning, and actively participate in safety training training going forward. However, since the audience of this book is predominantly focused on those who either are still studying to be in the industry or have just started their careers in the industry, I wanted to include a supplemental chapter on the critical aspects of safety that everyone should have a working knowledge of.  This chapter is not comprehensive of all the safety information one should have, but acts as a starting point for personal safety, focusing on the pieces of personal protective equipment (PPE) that a technician should have with them at all times, but first, we will talk about some of the critical organizations involved with safety.</p>
 <section id="organizations-involved-with-safety">
-<h2>Organizations Involved with Safety<a class="headerlink" href="#organizations-involved-with-safety" title="Permalink to this headline">#</a></h2>
+<h2>Organizations Involved with Safety<a class="headerlink" href="#organizations-involved-with-safety" title="Permalink to this heading">#</a></h2>
 <p>Adherence to standards from organizations helps promote safety across numerous industries and applications. Technicians should be familiar with relevant standards in their workplace and ensure equipment, materials and operations meet specifications.  This section will briefly mention four organizations (OSHA, ANSI, ASME, ASTM, and NFPA) and their roles in safety.</p>
 <p>The Occupational Safety and Health Administration (OSHA) is a federal agency that oversees workplace safety and health regulations in the United States. OSHA develops and enforces standards that aim to protect workers from hazards and eliminate work-related illnesses and injuries. For example, OSHA has regulations around hazardous energy control (lockout/tagout), confined space entry, respiratory protection, and fall protection. OSHA conducts inspections, issues citations for violations, and provides compliance assistance to help employers meet standards.</p>
 <p>The American National Standards Institute (ANSI) is a private, non-profit organization that coordinates the development of voluntary consensus standards in the United States. ANSI-accredited standards development organizations like ASME and ASTM (referred to next) follow ANSI principles and procedures when creating their standards. Adoption of ANSI standards is voluntary unless adopted into law by a regulatory agency like OSHA. Many ANSI standards relate to safety in areas like personal protective equipment, machines, and construction.</p>
@@ -483,10 +411,10 @@ title="Print to PDF"
 <p>Each organization play indispensable roles in promoting safety and standardization within the natural gas industry. Their contributions in developing and enforcing safety regulations, standards, and best practices help protect workers, the environment, and the public while enhancing the overall safety and reliability of natural gas operations.</p>
 </section>
 <section id="personal-protective-equipment-ppe">
-<h2>Personal Protective Equipment (PPE)<a class="headerlink" href="#personal-protective-equipment-ppe" title="Permalink to this headline">#</a></h2>
+<h2>Personal Protective Equipment (PPE)<a class="headerlink" href="#personal-protective-equipment-ppe" title="Permalink to this heading">#</a></h2>
 <p>Being intimately familiar with your safety equipment is paramount to making sure everyone returns home safely at the end of the day.  In the case of an incident, one will want to make sure that the equipment they are using is ample protection, which can only be done if the equipment is inspected beforehand. Below is what standards should be mentioned on safety equipment when working in the natural gas industry.</p>
 <section id="safety-glasses">
-<h3>Safety Glasses<a class="headerlink" href="#safety-glasses" title="Permalink to this headline">#</a></h3>
+<h3>Safety Glasses<a class="headerlink" href="#safety-glasses" title="Permalink to this heading">#</a></h3>
 <p>Safety glasses are an essential piece of personal protective equipment for many work environments. They function as impact-resistant eye protection to shield the eyes from hazards like flying debris, sparks, and chemical splashes. Safety glasses come in various styles like spectacles with side shields, goggles that completely cover the eyes, and overspecs that fit over prescription glasses. Lenses can be clear or tinted to filter certain light wavelengths. Polycarbonate is a common lens material known for its strength, clarity, and resistance to scratching.  Some common specifications for safety glasses include:</p>
 <ul class="simple">
 <li><p>ANSI Z87 - This specification ensures ANSI Z87.1-2015 compliance, the minimum standard that all safety glasses should adhere to. This tests for basic impact resistance.</p></li>
@@ -497,7 +425,7 @@ title="Print to PDF"
 </ul>
 </section>
 <section id="safety-toe-work-shoes">
-<h3>Safety Toe Work Shoes<a class="headerlink" href="#safety-toe-work-shoes" title="Permalink to this headline">#</a></h3>
+<h3>Safety Toe Work Shoes<a class="headerlink" href="#safety-toe-work-shoes" title="Permalink to this heading">#</a></h3>
 <p>Safety toe footwear is essential personal protective equipment for workers in industrial settings. Safety toes contain a reinforced toe box that protects the feet from compression and impact injuries. They help prevent crushing injuries from dropped objects, rolling equipment, and other workplace hazards. The most common types of safety toes are steel and composite. Steel toes are durable and resistant to punctures, while composite toes are lightweight and provide similar protection.</p>
 <p>Safety toe work shoes must meet performance requirements for toe protection outlined in ASTM F2413. This includes withstanding impacts up to 75 pounds and compression loads up to 2,500 pounds. Safety toes should also be shaped and sized appropriately to protect the entire foot area. In addition to toe protection, safety shoes have slip-resistant soles and may contain other features like metatarsal guards and electrical hazard protection. Some other common markings include:</p>
 <ul class="simple">
@@ -507,7 +435,7 @@ title="Print to PDF"
 </ul>
 </section>
 <section id="head-protection">
-<h3>Head Protection<a class="headerlink" href="#head-protection" title="Permalink to this headline">#</a></h3>
+<h3>Head Protection<a class="headerlink" href="#head-protection" title="Permalink to this heading">#</a></h3>
 <p>Industrial head protection is vital personal protective equipment that helps prevent traumatic brain injuries and head wounds. Industrial helmets or “hard hats” are designed to reduce the force of impacts to the skull caused by falling or flying objects, bumps from fixed objects, and accidental head contact with electrical hazards. Hard hats have a rigid dome shell that distributes and absorbs shock. They often include a suspension system inside to further attenuate impact.</p>
 <p>To provide sufficient protection, hard hats must adhere to performance requirements in standards such as ANSI Z89.1. Testing criteria includes impact resistance, penetration resistance, flammability and electrical insulation. Below are some common markings:</p>
 <ul class="simple">
@@ -520,20 +448,20 @@ LT - Low Temperature</p></li>
 </ul>
 </section>
 <section id="flame-resistant-clothing-fr">
-<h3>Flame Resistant Clothing (FR)<a class="headerlink" href="#flame-resistant-clothing-fr" title="Permalink to this headline">#</a></h3>
+<h3>Flame Resistant Clothing (FR)<a class="headerlink" href="#flame-resistant-clothing-fr" title="Permalink to this heading">#</a></h3>
 <p>Flame resistant (FR) clothing is essential personal protective equipment for workers exposed to flash fire and electric arc flash hazards. FR clothing is made from fabrics that are inherently fire-resistant or treated with chemicals to make them resist ignition, burn slowly, and self-extinguish. FR clothing protects by creating a thermal barrier and not allowing heat transfer to the skin.</p>
 <p>FR work wear includes shirts, pants, coveralls, and outerwear rated for different hazard levels. The garments should cover the body fully and be worn in multiple layers for increased protection. Standard NFPA 2112 helps define garment performance requirements. Regular inspection and maintenance is key to ensuring FR clothing remains protective over its service life; however, be careful about washing your FR clothing in normal washes as this can remove the flame resistant properties of the PPE.</p>
 </section>
 <section id="hearing-protection">
-<h3>Hearing Protection<a class="headerlink" href="#hearing-protection" title="Permalink to this headline">#</a></h3>
+<h3>Hearing Protection<a class="headerlink" href="#hearing-protection" title="Permalink to this heading">#</a></h3>
 <p>Hearing protection is essential personal protective equipment that helps prevent occupational noise-induced hearing loss. Prolonged exposure to hazardous noise can cause permanent hearing damage and impairment. Hearing protection devices like earplugs and earmuffs limit noise exposure by blocking or absorbing sound waves before they enter the ear canal. They provide a barrier that reduces noise to safer levels below 85 decibels.</p>
 <p>There are many types of hearing protectors available that offer different noise reduction ratings (NRR). A higher NRR indicates more damping of noise. Proper insertion and fit are critical for earplugs to be effective. Earmuffs completely cover the ears to block noise and must form an adequate seal. Hearing protection needs to be matched to the noise hazards present and worn consistently in noisy environments. OSHA requires provision of hearing protection when noise exceeds permissible exposure limits.</p>
 <p>By wearing suitable hearing protection according to regulations, industrial workers can prevent disabling hearing injuries that degrade quality of life. Technicians working in noisy settings like need to be vigilant about protecting their hearing each day. Proper use of hearing protection preserves the ability to communicate, work safely, and enjoy activities after leaving the job site.</p>
 </section>
 <section id="combustible-gas-indicators-cgis">
-<h3>Combustible Gas Indicators (CGIs)<a class="headerlink" href="#combustible-gas-indicators-cgis" title="Permalink to this headline">#</a></h3>
+<h3>Combustible Gas Indicators (CGIs)<a class="headerlink" href="#combustible-gas-indicators-cgis" title="Permalink to this heading">#</a></h3>
 <p>Combustible gas indicators (CGIs) are portable monitoring devices used to detect the presence of flammable gases and vapors in the air. They are a vital safety tool utilized in the natural gas industry.  However, modern CGIs often monitor more than just combustible gases.  Below are the four primary sensors on modern day CGIs used in the natural gas industry:</p>
-<ol class="simple">
+<ol class="arabic simple">
 <li><p>Methane LEL% - This is the percent of the Lower Explosive Limit (LEL) of Methane (aka: the point at which methane can burn in air). Methane is only flammable when it is ~5-15% of a gas/air mixture; so a 50% reading for Methane LEL% would correspond to an air gas mixture with 2.5% methane.</p></li>
 <li><p>Percent Oxygen - This is the percent of oxygen in the air, typically around 21% under normal conditions.</p></li>
 <li><p>H2S - H2S stands for hydrogen sulfide, a highly toxic gas that can be deadly at high concentrations. H2S is acutely toxic and can cause irritation at low concentrations and rapid unconsciousness and death at higher concentrations above 500 ppm. At low concentrations, H2S has a distinct “rotten egg” odor. But at higher concentrations, it deadens the sense of smell, eliminating warning of exposure. <span id="id1">[<a class="reference internal" href="../References/References.html#id5" title="OSHA. Effects of hydrogen sulfide h2s. 2023. URL: https://www.osha.gov/sites/default/files/2018-12/fy15_sh-27664-sh5_Confined_Space_Handout_Effects_of_H2S.pdf (visited on 2023-07-17).">OSH23a</a>]</span>.</p></li>
@@ -546,8 +474,8 @@ LT - Low Temperature</p></li>
 </section>
 </section>
 <section id="questions">
-<h2>Questions<a class="headerlink" href="#questions" title="Permalink to this headline">#</a></h2>
-<ol class="simple">
+<h2>Questions<a class="headerlink" href="#questions" title="Permalink to this heading">#</a></h2>
+<ol class="arabic simple">
 <li><p>Please take photographs of the following pieces of YOUR personal PPE and identify what every marking on them means.  Please circle where the safety markings are on your photos.  Depending on the quality of your equipment, there may be several or only a few ratings.  Additionally, please explain why it is important to note this safety rating on the equipment.<br />
 a. Safety Glasses<br />
 b. Safety Toe Work Shoe<br />
@@ -584,50 +512,112 @@ d. Methane LEL% above lower limit</p></li>
     </script>
     <script>kernelName = 'python3'</script>
 
-              </div>
+                </article>
               
-            </main>
-            <footer class="footer-article noprint">
-                
-    <!-- Previous / next buttons -->
-<div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="Chapter%201.html" title="previous page">
-        <i class="fas fa-angle-left"></i>
-        <div class="prev-next-info">
-            <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Chapter 1: How the Gas Industry Works</p>
-        </div>
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="Chapter%201.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Chapter 1: How the Gas Industry Works</p>
+      </div>
     </a>
-    <a class='right-next' id="next-link" href="Chapter%203.html" title="next page">
-    <div class="prev-next-info">
+    <a class="right-next"
+       href="Chapter%203.html"
+       title="next page">
+      <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
         <p class="prev-next-title">Chapter 3: The Chemistry of Gas Measurement</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
-            </footer>
-        </div>
-    </div>
-    <div class="footer-content row">
-        <footer class="col footer"><p>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#organizations-involved-with-safety">Organizations Involved with Safety</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#personal-protective-equipment-ppe">Personal Protective Equipment (PPE)</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#safety-glasses">Safety Glasses</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#safety-toe-work-shoes">Safety Toe Work Shoes</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#head-protection">Head Protection</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#flame-resistant-clothing-fr">Flame Resistant Clothing (FR)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hearing-protection">Hearing Protection</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#combustible-gas-indicators-cgis">Combustible Gas Indicators (CGIs)</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#questions">Questions</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
   
-    By Michael Fouts<br/>
-  
-      &copy; Copyright 2022.<br/>
-</p>
-        </footer>
-    </div>
+  <div class="footer-item">
     
+<p class="component-author">
+By Michael Fouts
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
 </div>
+          </footer>
+        
 
-
-      </div>
+      </main>
     </div>
+  </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=5b4479735964841361fd"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd"></script>
 
-
+  <footer class="bd-footer">
+  </footer>
   </body>
 </html>
