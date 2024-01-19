@@ -82,6 +82,4 @@ With a general overview of where gas measurement fits into the industry, the res
     a.  Operations  
     b.  Engineering  
     c.  Gas Accounting  
-    d.  Marketing  
-
-4. Please share a safety contact pertinent to either recent events at large or in your personal life using an internal locus of control.
+    d.  Marketing

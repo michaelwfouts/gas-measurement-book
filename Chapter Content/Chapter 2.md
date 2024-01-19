@@ -87,10 +87,8 @@ For specific hazardous environments experienced within the industry, please visi
 
 2. Please research a safety incident where either FR clothing was used to help prevent injury or should have been used to prevent injury.  Please provide a link to your source.  Additionally, explain any other precautions that should have been taken to prevent the incident from happening in the first place.
 
-3. Combustible Gas indicators typically monitor 4 components (Oxygen, Carbon Monoxide, H2S, and Methane).  Please explain what the proper action is if your CGI alarms with each of the following warnings, assuming you did not expect it to go off.  Additionally, please give at least one example of what sort of situation would cause this alarm to go off.  
+3. Combustible Gas indicators typically monitor 4 components (Oxygen, Carbon Monoxide, H2S, and Methane).  First, please explain what the proper action is if your CGI alarms with any of the following warnings, assuming you did not expect it to go off.  Second, please give at least one example of what sort of situation/event would cause each of the specific component alarms to go off.  
     a. Low Oxygen  
     b. High Carbon Monoxide  
     c. High H2S  
-    d. Methane LEL% above lower limit  
-
-4. Please share a safety contact pertinent to either recent events at large or in your personal life.
+    d. Methane LEL% above lower limit
