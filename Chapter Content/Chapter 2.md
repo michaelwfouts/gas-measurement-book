@@ -92,3 +92,5 @@ For specific hazardous environments experienced within the industry, please visi
     b. High Carbon Monoxide  
     c. High H2S  
     d. Methane LEL% above lower limit
+
+4. Please share a safety contact pertinent to either recent events at large or your personal life.  Make sure to propose a suggested action to prevent the issue from happening again or have a clear, actionable reminder if it was a near miss/good catch.  Remember that good safety contact reflections use an internal locus of control.  
