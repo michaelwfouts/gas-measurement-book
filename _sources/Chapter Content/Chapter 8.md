@@ -109,10 +109,10 @@ Two Valve Manifold Diagram
 This method is largely falling out of favor due to the environmental impacts of blowing natural gas directly to atmosphere.
 
 ## Questions
-1. What is the turn down ratio of the following meters with the given maximum and minimum flow rates?
+1. What is the turn down ratio of the following meters with the given maximum and minimum flow rates?  
     a. Max – 1,200 MCFH; Min – 300 MCFH  
     b. Max – 100,000 MCFD; Min – 5,000 MCFD  
-    c. Max – 45,000 MCFH; Min – 900 MCFH
+    c. Max – 45,000 MCFH; Min – 900 MCFH  
     d. Max – 200 MCFD; min – 2 MCFD
 
 2. Please briefly describe how a positive displacement meter works.  Name the two main types of positive displacement meters and list the pros and cons of each.
