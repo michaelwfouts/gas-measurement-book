@@ -91,6 +91,3 @@ Colloquially speaking, in industry, the difference between an ACF and SCF is not
 
 
 4. What is the difference between actual cubic feet and standard cubic feet?
-
-
-5. Please share a safety contact pertinent to either recent events at large or in your personal life.

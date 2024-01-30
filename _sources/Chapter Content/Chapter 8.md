@@ -109,14 +109,20 @@ Two Valve Manifold Diagram
 This method is largely falling out of favor due to the environmental impacts of blowing natural gas directly to atmosphere.
 
 ## Questions
-1. Please briefly describe how a positive displacement meter works.  Name the two main types of positive displacement meters and list the pros and cons of each.
+1. What is the turn down ratio of the following meters with the given maximum and minimum flow rates?
+    a. Max – 1,200 MCFH; Min – 300 MCFH  
+    b. Max – 100,000 MCFD; Min – 5,000 MCFD  
+    c. Max – 45,000 MCFH; Min – 900 MCFH
+    d. Max – 200 MCFD; min – 2 MCFD
 
-2. Please briefly describe how an orifice meter works.  Additionally, describe the pros and cons of an orifice meter.
+2. Please briefly describe how a positive displacement meter works.  Name the two main types of positive displacement meters and list the pros and cons of each.
 
-3. Please briefly describe how a turbine meter works.  Additionally, describe the pros and cons of a turbine meter.
+3. Please briefly describe how an orifice meter works.  Additionally, describe the pros and cons of an orifice meter.
 
-4. Please briefly describe how a Coriolis meter works.  Additionally, describe the pros and cons of a Coriolis meter.
+4. Please briefly describe how a turbine meter works.  Additionally, describe the pros and cons of a turbine meter.
 
-5. Please briefly describe how an ultrasonic meter works.  Additionally, describe the pros and cons of an ultrasonic meter.
+5. Please briefly describe how a Coriolis meter works.  Additionally, describe the pros and cons of a Coriolis meter.
 
-6. Explain what the proving process is and why it is important.  Additionally, name two devices that can be used to prove a meter.
+6. Please briefly describe how an ultrasonic meter works.  Additionally, describe the pros and cons of an ultrasonic meter.
+
+7. Explain what the proving process is and why it is important.  Additionally, name two devices that can be used to prove a meter.
