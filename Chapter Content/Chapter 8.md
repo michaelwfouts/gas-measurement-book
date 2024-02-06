@@ -94,7 +94,7 @@ A meter prover is a specialized calibration device used to validate the accuracy
 ---
 name: master-meter
 ---
-Two Valve Manifold Diagram
+Master Meter Testing Configuration
 ```
 
 2. Sonic Nozzle - A sonic nozzle prover is a gas flow calibration standard that utilizes a smoothly contoured convergent-divergent nozzle to create a choked sonic flow. Typically, natural gas from the pipeline is used for testing.  This gas accelerates through the narrowed throat of the nozzle, reaching sonic velocity, a constant given gas conditions.  This creates a fixed flow area and constant mass flow rate dependent only on upstream pressure and temperature. The exact flow is calculated from the inlet gas conditions based on rigorous models.  A figure of this configuration can be seen below.
@@ -103,7 +103,7 @@ Two Valve Manifold Diagram
 ---
 name: sonic-nozzle
 ---
-Two Valve Manifold Diagram
+Sonic Nozzle Testing Configuration
 ```
 
 This method is largely falling out of favor due to the environmental impacts of blowing natural gas directly to atmosphere.
