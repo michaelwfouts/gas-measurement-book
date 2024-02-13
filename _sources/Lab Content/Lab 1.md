@@ -60,7 +60,7 @@ The flow rate through an orifice meter can be calculated via several methods.  I
 
 \begin{gather*}
 \\
-q_{m} = \frac{C_{d}}{\sqrt{1-\beta^{4}}} \; \epsilon \; \frac{\pi}{4} \; d^{2} \; \sqrt{\frac{2 \; \Delta p}{\rho_{1}}}
+q_{m} = \frac{C_{d}}{\sqrt{1-\beta^{4}}} \; \epsilon \; \frac{\pi}{4} \; d^{2} \; \sqrt{\frac{288 \; \Delta p}{\rho_{1}}}
 \\
 \end{gather*} 
 
