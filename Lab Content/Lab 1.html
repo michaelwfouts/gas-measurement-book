@@ -479,19 +479,19 @@ document.write(`
 <div class="amsmath math notranslate nohighlight">
 \[\begin{gather*}
 \\
-q_{m} = \frac{C_{d}}{\sqrt{1-\beta^{4}}} \; \epsilon \; \frac{\pi}{4} \; d^{2} \; \sqrt{\frac{288 \; \Delta p}{\rho_{1}}}
+q_{m} = \frac{C_{d}}{\sqrt{1-\beta^{4}}} \; \epsilon \; \frac{\pi}{4} \; D_i^{2} \; \sqrt{\frac{288 \; \Delta p}{\rho_{1}}}
 \\
 \end{gather*}\]</div>
 <div class="amsmath math notranslate nohighlight">
 \[\begin{align*}
 &amp; where: \\
-  &amp; \qquad q_{m} \: = \: actual \: volumetric \: flowrate, \: ACF \: per \: Second\\
-  &amp; \qquad C_{d} \: = \: coefficient \: of \: discharge, \: dimensionless, \: typically \: between \: 0.6 \: and \: 0.85\\
-  &amp; \qquad \beta \: = \: Beta \: Ratio\\
-  &amp; \qquad \epsilon \: = \: expansibility \: factor, \: 1 \: for \: incompressible \: gases \: and \: most \: liquids,  \: dimensionless\\
-  &amp; \qquad d \: = \: internal \: orifice \: diameter \: under \: operating \: conditions, \: ft\\
-  &amp; \qquad \rho_{1} \: = \: fluid \: density \: in \: the \: plane \: of \: upstream \: tapping, \: lbf/ft³\\
-  &amp; \qquad \Delta \: p \: = \: differential \: pressure \: measured \: across \: the \: orifice, \: psia\\
+  &amp; \qquad q_{m} \: = \: actual \: volumetric \: flowrate \: (ACF \: per \: Second)\\
+  &amp; \qquad C_{d} \: = \: coefficient \: of \: discharge, \: typically \: between \: 0.6 \: and \: 0.85 \: (dimensionless)\\
+  &amp; \qquad \beta \: = \: Beta \: Ratio \: (dimensionless)\\
+  &amp; \qquad \epsilon \: = \: expansibility \: factor, \: 1 \: for \: incompressible \: gases \: and \: most \: liquids  \: (dimensionless)\\
+  &amp; \qquad D_i \: = \: Inside \: Diameter \: of \: Plate \: (ft)\\
+  &amp; \qquad \rho_{1} \: = \: fluid \: density \: in \: the \: plane \: of \: upstream \: tapping \: (lbf/ft³)\\
+  &amp; \qquad \Delta \: p \: = \: differential \: pressure \: measured \: across \: the \: orifice \: (psia)\\
 \end{align*}\]</div>
 <p>Source: <a class="reference external" href="https://en.wikipedia.org/wiki/Orifice_plate">https://en.wikipedia.org/wiki/Orifice_plate</a></p>
 <p>One point of clarification here is the <span class="math notranslate nohighlight">\(\epsilon\)</span> is related to <span class="math notranslate nohighlight">\(z\)</span>, the supercompressibility factor mentioned in the Lecture Section.  However, they are different concepts.  The expansibility factor accounts for the density change of a gas due to pressure reduction as it passes through the orifice. It corrects for the assumption of constant density used in the simplified flow rate equations. The term “supercompressibility factor” is sometimes used interchangeably with the expansibility factor, but it can also refer more broadly to the factor used to correct for real gas behavior compared to ideal gas behavior.</p>
@@ -574,10 +574,13 @@ a. Visual Inspection<br />
 b. Departure from Flatness<br />
 c. Measure of Eccentricity<br />
 d. Measure of Roundness</p></li>
-<li><p>For your plate, calculate the standard volumetric flow rate using the ISO 5167 equation.  Assume the parameters below. Note: you may have to assume some values not explicitly given. Please give your sources for these.<br />
+<li><p>For your plate, calculate the standard volumetric flow rate using the ISO 5167 equation in SCF per Second.  Assume the parameters below. Note: you may have to assume some values not explicitly given. Please give your sources for these.<br />
 <span class="math notranslate nohighlight">\(C_d\)</span>  = 0.75<br />
 <span class="math notranslate nohighlight">\(\epsilon\)</span> = 0.9<br />
-<span class="math notranslate nohighlight">\(\Delta p\)</span> = 100 in <span class="math notranslate nohighlight">\(H_20\)</span></p></li>
+<span class="math notranslate nohighlight">\(\Delta p\)</span> = 100 <span class="math notranslate nohighlight">\(in \: H_20\)</span><br />
+<span class="math notranslate nohighlight">\(\rho _1\)</span> = 0.04 <span class="math notranslate nohighlight">\(lbs/ft^3\)</span>  (or what you found online)<br />
+P = 14 psia<br />
+T = 70 °F</p></li>
 <li><p>What are the purposes of the taps on the sides of the orifice meter?</p></li>
 </ol>
 </section>
