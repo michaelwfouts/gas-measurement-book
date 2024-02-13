@@ -60,19 +60,19 @@ The flow rate through an orifice meter can be calculated via several methods.  I
 
 \begin{gather*}
 \\
-q_{m} = \frac{C_{d}}{\sqrt{1-\beta^{4}}} \; \epsilon \; \frac{\pi}{4} \; d^{2} \; \sqrt{\frac{288 \; \Delta p}{\rho_{1}}}
+q_{m} = \frac{C_{d}}{\sqrt{1-\beta^{4}}} \; \epsilon \; \frac{\pi}{4} \; D_i^{2} \; \sqrt{\frac{288 \; \Delta p}{\rho_{1}}}
 \\
 \end{gather*} 
 
 \begin{align*}
 & where: \\
-  & \qquad q_{m} \: = \: actual \: volumetric \: flowrate, \: ACF \: per \: Second\\
-  & \qquad C_{d} \: = \: coefficient \: of \: discharge, \: dimensionless, \: typically \: between \: 0.6 \: and \: 0.85\\
-  & \qquad \beta \: = \: Beta \: Ratio\\
-  & \qquad \epsilon \: = \: expansibility \: factor, \: 1 \: for \: incompressible \: gases \: and \: most \: liquids,  \: dimensionless\\
-  & \qquad d \: = \: internal \: orifice \: diameter \: under \: operating \: conditions, \: ft\\
-  & \qquad \rho_{1} \: = \: fluid \: density \: in \: the \: plane \: of \: upstream \: tapping, \: lbf/ft³\\
-  & \qquad \Delta \: p \: = \: differential \: pressure \: measured \: across \: the \: orifice, \: psia\\
+  & \qquad q_{m} \: = \: actual \: volumetric \: flowrate \: (ACF \: per \: Second)\\
+  & \qquad C_{d} \: = \: coefficient \: of \: discharge, \: typically \: between \: 0.6 \: and \: 0.85 \: (dimensionless)\\
+  & \qquad \beta \: = \: Beta \: Ratio \: (dimensionless)\\
+  & \qquad \epsilon \: = \: expansibility \: factor, \: 1 \: for \: incompressible \: gases \: and \: most \: liquids  \: (dimensionless)\\
+  & \qquad D_i \: = \: Inside \: Diameter \: of \: Plate \: (ft)\\
+  & \qquad \rho_{1} \: = \: fluid \: density \: in \: the \: plane \: of \: upstream \: tapping \: (lbf/ft³)\\
+  & \qquad \Delta \: p \: = \: differential \: pressure \: measured \: across \: the \: orifice \: (psia)\\
 \end{align*}
 
 Source: https://en.wikipedia.org/wiki/Orifice_plate
@@ -145,9 +145,12 @@ One of the most important parts of any inspection is to verify the beta ratio.  
     c. Measure of Eccentricity  
     d. Measure of Roundness  
 
-3. For your plate, calculate the standard volumetric flow rate using the ISO 5167 equation.  Assume the parameters below. Note: you may have to assume some values not explicitly given. Please give your sources for these.  
+3. For your plate, calculate the standard volumetric flow rate using the ISO 5167 equation in SCF per Second.  Assume the parameters below. Note: you may have to assume some values not explicitly given. Please give your sources for these.  
     $C_d$  = 0.75  
     $\epsilon$ = 0.9  
-    $\Delta p$ = 100 in $H_20$  
+    $\Delta p$ = 100 $in \: H_20$  
+    $\rho _1$ = 0.04 $lbs/ft^3$  (or what you found online)  
+    P = 14 psia  
+    T = 70 °F 
 
 4. What are the purposes of the taps on the sides of the orifice meter?
