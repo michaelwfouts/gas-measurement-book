@@ -12,6 +12,9 @@ chapters:
 - file: Chapter Content/Chapter 6
 - file: Chapter Content/Chapter 7
 - file: Chapter Content/Chapter 8
+- file: Lab Content/Introduction
+  sections:
+  - file: Lab Content/Lab 1
 - file: Appendix/Appendix
 - file: References/References
 - file: Appendix/Author
