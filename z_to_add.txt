@@ -1,3 +1,6 @@
-Read rotary meter plates
-Create Pressure/Temperature Lab
-Add GC Lab
+- Read rotary meter plates
+- Create Pressure/Temperature Lab
+- Add GC Lab
+- Add pictures from WVU lab to orifice lab
+- Add DP square root curve to orifice lab to show why 10-100 in H2O is optimal
+- Add pictures to describe measurements for eccentricity and roundness for orifice lab
