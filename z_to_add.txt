@@ -4,3 +4,5 @@
 - Add pictures from WVU lab to orifice lab
 - Add DP square root curve to orifice lab to show why 10-100 in H2O is optimal
 - Add pictures to describe measurements for eccentricity and roundness for orifice lab
+- Add sections of what taps do at the sides of the orifice meter
+- Add section saying what equipment needs to be added for the orifice meter lab
