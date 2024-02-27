@@ -8,3 +8,4 @@
 - Add section saying what equipment needs to be added for the orifice meter lab
 - Specify what measurements are needed for roundness and eccentricity questions
 - Add money to Dekatherm calculations
+- Add graph showing the effect of pressure (PSIA) vs. z (supercompressibility)

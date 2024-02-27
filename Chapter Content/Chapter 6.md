@@ -89,7 +89,7 @@ For this example, the supercompressibility changed the result compared to ideal 
 
 2. What assumptions are used in the ideal gas law/combined gas law and why are they bad assumptions to make for the natural gas pipelines?
 
-3. What is the standard volume of a sample of gas that is at 60 psig, 80°F, and takes up 500 ACF? PlePlease make sure to factor in supercompressibility.  Assume that z is 1.008 and you are operating in the Appalachian Basin.
+3. What is the standard volume of a sample of gas that is at 60 psig, 80°F, and takes up 500 ACF? Please make sure to factor in supercompressibility.  Assume that z is 1.008 and you are operating in the Appalachian Basin.
 
 4. A diaphragm meter is operating at 10 psig and 40°F.  From reading the index, you gather that 100 actual cubic feet has passed through the meter in the time you have watched it.  How much gas in standard cubic feet has passed through the meter during this time? Please make sure to factor in supercompressibility.  Assume that z is 1.002 and you are operating in the Appalachian Basin.
 
