@@ -31,11 +31,13 @@ Diaphragm meters are a type of positive displacement flow meter used for natural
 
 Diaphragm meters  are typically used in low flow applications (0.5 to 10 MSCFD) and low pressure applications (5-10 psig).  However, they do boast one of the highest turndown ratios at 80:1 due to the fact that they can measure incredibly small volumes (known as pilot loads).  The typical application includes house meters used in residential applications.  They are very cheap and have a high accuracy; however, due to the low pressure, sometimes sediment or water can fill the diaphragms, resulting in over measuring and due to the low flow requirements, these are used in limited applications.
 
+Additional information about Diaphragm meters can be found at https://asgmt.com/wp-content/uploads/2016/02/006_.pdf.
+
 #### Rotary Meters
 
 Rotary meters are a type of positive displacement flow meter used extensively for natural gas measurement. They contain two figure-8 shaped impellers mounted on a rotating shaft inside the meter body. As gas passes through, it causes the impellers to spin proportionally to the flow rate.The impeller shaft drives gears connected to a counter. The number of impeller revolutions indicates the total gas volume.
 
-Rotary Meters are typically used in low to medium flow applications (5-1000 MSCFD), but with a very flexible pressure range from 20-1480 psig depending on the model.  Rotary meters have a mediume turndown ratio, ranging from 10:1 to 80:1.  Applications include store meters (Walmarts/Warehouses) and low flow measurement for producers.  These meters are relatively cheap and due to the wide pressure ranges of the meters, can be used in a wide variety of applications.  Due to the mechanical nature of the meters, they can be maintained for long lifespans; however, industry is shifting away from repair in favor of replace where the economics make sense.  However, this meter can lock up if spun too fast and requires some maintenance to keep accuracy high.
+Rotary Meters are typically used in low to medium flow applications (5-1000 MSCFD), but with a very flexible pressure range from 20-1480 psig depending on the model.  Rotary meters have a medium turndown ratio, ranging from 10:1 to 80:1.  Applications include store meters (Walmarts/Warehouses) and low flow measurement for producers.  These meters are relatively cheap and due to the wide pressure ranges of the meters, can be used in a wide variety of applications.  Due to the mechanical nature of the meters, they can be maintained for long lifespans; however, industry is shifting away from repair in favor of replace where the economics make sense.  However, this meter can lock up if spun too fast and requires some maintenance to keep accuracy high.
 
 ### Orifice Meters
 
@@ -61,7 +63,7 @@ Coriolis meters can be used for very low to high flow rates, but typically are o
 
 ### Ultrasonic Meters
 
-Ultrasonic flow meters measure flow rate by sending ultrasonic sound waves diagonally across a pipe through the flowing gas. This creates a small time difference between the upsteam and downstream signals that indicates flow velocity.  They work by measuring the transmission time difference between upstream and downstream ultrasonic pulses. This transit time difference is proportional to flow velocity. The cross-sectional area of the pipe yields the volumetric flow rate.
+Ultrasonic flow meters measure flow rate by sending ultrasonic sound waves diagonally across a pipe through the flowing gas. This creates a small time difference between the upstream and downstream signals that indicates flow velocity.  They work by measuring the transmission time difference between upstream and downstream ultrasonic pulses. This transit time difference is proportional to flow velocity. The cross-sectional area of the pipe yields the volumetric flow rate.
 
 https://www.youtube.com/watch?v=Bx2RnrfLkQg
 

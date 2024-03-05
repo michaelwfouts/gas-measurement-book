@@ -63,7 +63,7 @@ Coriolis meters can be used for very low to high flow rates, but typically are o
 
 ### Ultrasonic Meters
 
-Ultrasonic flow meters measure flow rate by sending ultrasonic sound waves diagonally across a pipe through the flowing gas. This creates a small time difference between the upsteam and downstream signals that indicates flow velocity.  They work by measuring the transmission time difference between upstream and downstream ultrasonic pulses. This transit time difference is proportional to flow velocity. The cross-sectional area of the pipe yields the volumetric flow rate.
+Ultrasonic flow meters measure flow rate by sending ultrasonic sound waves diagonally across a pipe through the flowing gas. This creates a small time difference between the upstream and downstream signals that indicates flow velocity.  They work by measuring the transmission time difference between upstream and downstream ultrasonic pulses. This transit time difference is proportional to flow velocity. The cross-sectional area of the pipe yields the volumetric flow rate.
 
 https://www.youtube.com/watch?v=Bx2RnrfLkQg
 
