@@ -41,8 +41,8 @@ To be written.  Should have pictures of equipment with descriptions followed by 
 2. Why is the typical testing of an ultrasonic meter much simpler than testing a positive displacement meter?
 
 3. Using the maintenance report collected, please report what the following values are and why these values are important for checking the meter's health.
-    a. Velocity (all paths)
-    b. Profile
-    c. Symmetry
-    d. SOS
-    e. Gain (all paths)
+    a. Velocity (all paths)  
+    b. Profile  
+    c. Symmetry  
+    d. SOS  
+    e. Gain (all paths)  

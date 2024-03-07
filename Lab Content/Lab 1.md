@@ -136,6 +136,25 @@ The Measure of Roundness is another check that is typically only performed when 
 ### Verification of Beta Ratio
 One of the most important parts of any inspection is to verify the beta ratio.  The internal bore diameter is often etched somewhere on the plate and making sure this number is input correctly into your flow computer is imperative for accurate measurement.  Should this number be off by as much as a quarter of an inch, over a years time, millions of dollars worth of gas can be improperly measured.
 
+## 3D Printed Orifice Meter
+Knowing that institutions may not have access to the proper equipment for this lab, a 3D Model of a single chamber Orifice Meter was designed.  This not only makes this lab possible when real world installations are not accessible, but it also allows for every student to have their own piece of equipment to analyze which, in the author's opinion, has greatly assisted in knowledge retention of learning objects compared to having several students share a working orifice meter installation.  For access to the 3D Models to print your own Orifice Meter, please email the author.
+
+```{figure} ../Assets/Assembled-3D-Printed-Orifice-Meter.jpg
+---
+height: 300px
+name: Assembled-3D-Printed-Orifice-Meter
+---
+Assembled 3D Printed Orifice Meter
+```
+
+```{figure} ../Assets/Disassembled-3D-Printed-Orifice-Meter.jpg
+---
+height: 300px
+name: Disassembled-3D-Printed-Orifice-Meter
+---
+Disassembled 3D Printed Orifice Meter
+```
+
 ## Questions
 1. Calculate the $\beta$ value of your orifice plate.
 

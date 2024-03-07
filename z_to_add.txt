@@ -9,3 +9,4 @@
 - Specify what measurements are needed for roundness and eccentricity questions
 - Add money to Dekatherm calculations
 - Add graph showing the effect of pressure (PSIA) vs. z (supercompressibility)
+- Add "In reality" Section of Master Meter Proving to show Rotary Meter Loop

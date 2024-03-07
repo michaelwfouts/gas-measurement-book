@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>2 - Ultrasonic Meters &#8212; Gas Measurement For Technicians</title>
+    <title>3 - Ultrasonic Meters &#8212; Gas Measurement For Technicians</title>
   
   
   
@@ -180,7 +180,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="Introduction.html">Lab Content</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="Lab%201.html">1 - Orifice Meters</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Lab%202.html">2 - Master Meter Proving</a></li>
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">2 - Ultrasonic Meters</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">3 - Ultrasonic Meters</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../Appendix/Appendix.html">Appendix</a></li>
@@ -371,7 +371,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>2 - Ultrasonic Meters</h1>
+    <h1>3 - Ultrasonic Meters</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -385,6 +385,7 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#advantages-of-ultrasonic-meters">Advantages of Ultrasonic Meters</a></li>
 </ul>
 </li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#meter-diagnostics">Meter Diagnostics</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lab-information">Lab Information:</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#questions">Questions</a></li>
 </ul>
@@ -399,18 +400,35 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="ultrasonic-meters">
-<h1>2 - Ultrasonic Meters<a class="headerlink" href="#ultrasonic-meters" title="Permalink to this heading">#</a></h1>
+<h1>3 - Ultrasonic Meters<a class="headerlink" href="#ultrasonic-meters" title="Permalink to this heading">#</a></h1>
 <section id="introduction-to-ultrasonic-meters">
 <h2>Introduction to Ultrasonic Meters<a class="headerlink" href="#introduction-to-ultrasonic-meters" title="Permalink to this heading">#</a></h2>
 <p>Ultrasonic meters represent a significant advancement in flow measurement technologies.  Being a digital first type of measurement, it allows for several advantages over mechanical types of meters (such as positive displacement and turbine meters). Ultrasonic flow meters measure flow rate by sending ultrasonic sound waves diagonally across a pipe through the flowing gas. This creates a small time difference between the upstream and downstream signals that indicates flow velocity. They work by measuring the transmission time difference between upstream and downstream ultrasonic pulses. This transit time difference is proportional to flow velocity. The cross-sectional area of the pipe yields the volumetric flow rate.  A visualization and more detailed explanation can be found at the video below:</p>
 <p><a class="reference external" href="https://www.youtube.com/watch?v=Bx2RnrfLkQg">https://www.youtube.com/watch?v=Bx2RnrfLkQg</a></p>
 <section id="advantages-of-ultrasonic-meters">
 <h3>Advantages of Ultrasonic Meters<a class="headerlink" href="#advantages-of-ultrasonic-meters" title="Permalink to this heading">#</a></h3>
-<p>Ultrasonic meters are one of the most technologically advanced methods to measure natural gas.  While this typically comes with a heavy price tag, engineering and design teams will often consider the price tag worth it for high volume applications.  The advantages of Ultrasonic Meters include:</p>
+<p>Ultrasonic meters are one of the most technologically advanced methods to measure natural gas.  While this typically comes with a heavy price tag, engineering and design teams will often consider the price tag worth it for high volume applications.  The two largest advantages of Ultrasonic Meters are:</p>
 <ol class="arabic simple">
-<li><p><ins>Accuracy and Reliability</ins>: Ultrasonic meters provide high-precision measurements by capturing the time difference between ultrasonic pulses traveling upstream and downstream through the gas. This method is highly accurate, ensuring that gas distribution and billing are based on reliable data. The absence of moving parts reduces wear and tear, further enhancing measurement reliability over time.</p></li>
+<li><p><ins>Accuracy and Reliability</ins>: Ultrasonic meters provide high-precision, high-accuracy measurements of the gas volume. This ensures that billing is based on reliable data.  For comparison, an orifice meter’s uncertainty is typically around ±2% while an ultrasonic meter’s uncertainty is about ±0.25%, an 8 times increase in precision. The absence of moving parts reduces wear and tear, further enhancing measurement reliability over time.</p></li>
+<li><p><ins>Operational Diagnostics</ins>: Ultrasonic meters are equipped with sophisticated diagnostics that monitor the meter’s performance and the condition of the gas flow. This capability enables early detection of measurement issues, flow disturbances, or maintenance needs, preventing potential problems before they impact operations. These diagnostics can even be sent via communication networks back to data centers meaning analytics and monitoring can be inspected remotely on the meter.</p></li>
 </ol>
 </section>
+</section>
+<section id="meter-diagnostics">
+<h2>Meter Diagnostics<a class="headerlink" href="#meter-diagnostics" title="Permalink to this heading">#</a></h2>
+<p>Understanding the specific components of an ultrasonic meter maintenance report is crucial for ensuring the meter operates efficiently and accurately.  Below are some of the critical metrics that are used to evaluate the meter’s performance:</p>
+<ol class="arabic simple">
+<li><p>Velocity
+This measures the flow velocity of the gas in each of the meter’s paths. By analyzing the velocity across all paths, operators can ensure the meter is accurately capturing the flow’s behavior and characteristics. Discrepancies in velocities across paths could highlight flow disturbances, asymmetrical flow profiles, or potential inaccuracies in the meter’s flow calculations.</p></li>
+<li><p>Profile
+The profile refers to the velocity profile of the gas flow through the meter. It provides insights into how uniformly the gas is flowing across the cross-section of the pipe. A uniform flow profile ensures that the meter’s calculations are accurate. Deviations in the flow profile can indicate issues such as flow disturbances or obstructions that might affect the meter’s accuracy.</p></li>
+<li><p>Symmetry
+Symmetry is related to the profile and measures the balance of the flow’s velocity profile between the upstream and downstream paths. Ideal symmetry means that the flow characteristics are consistent in both directions, which is crucial for the differential time measurement principle ultrasonic meters use. Asymmetry may suggest installation issues, flow disturbances, or physical obstructions that could skew measurements.</p></li>
+<li><p>SOS (Speed of Sound)
+The speed of sound (SOS) in the gas is a fundamental parameter that ultrasonic meters use to calculate flow rate. It can be influenced by the gas composition, temperature, and pressure. Monitoring SOS helps in verifying the gas properties assumed during flow rate calculations. Significant deviations from expected SOS values could indicate changes in gas composition or other conditions affecting the meter’s accuracy.</p></li>
+<li><p>Gain (all paths)
+Gain refers to the strength of the ultrasonic signal received after it travels through the gas medium. Each path in the meter has its own gain setting, ensuring that signals are detectable over the noise. Monitoring the gain levels for all paths helps identify issues such as signal attenuation due to fouling, corrosion, or changes in the gas composition. Consistent and appropriate gain levels are crucial for the meter’s ability to accurately detect and measure the transit times of ultrasonic pulses.</p></li>
+</ol>
 </section>
 <section id="lab-information">
 <h2>Lab Information:<a class="headerlink" href="#lab-information" title="Permalink to this heading">#</a></h2>
@@ -422,11 +440,11 @@ document.write(`
 <li><p>When testing an Ultrasonic Meter, what two reports are typically collected for a SICK meter? What type of information does each of these reports contain?</p></li>
 <li><p>Why is the typical testing of an ultrasonic meter much simpler than testing a positive displacement meter?</p></li>
 <li><p>Using the maintenance report collected, please report what the following values are and why these values are important for checking the meter’s health.
-a. Profile
-b. Symmetry
-c. SOS
-d. Gain (all paths)
-e. Velocity (all paths)</p></li>
+a. Velocity (all paths)
+b. Profile
+c. Symmetry
+d. SOS
+e. Gain (all paths)</p></li>
 </ol>
 </section>
 </section>
@@ -498,6 +516,7 @@ e. Velocity (all paths)</p></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#advantages-of-ultrasonic-meters">Advantages of Ultrasonic Meters</a></li>
 </ul>
 </li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#meter-diagnostics">Meter Diagnostics</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lab-information">Lab Information:</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#questions">Questions</a></li>
 </ul>
