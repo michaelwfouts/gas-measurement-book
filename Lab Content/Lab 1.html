@@ -499,6 +499,13 @@ q_{m} = \frac{C_{d}}{\sqrt{1-\beta^{4}}} \; \epsilon \; \frac{\pi}{4} \; D_i^{2}
 <p>Source: <a class="reference external" href="https://en.wikipedia.org/wiki/Orifice_plate">https://en.wikipedia.org/wiki/Orifice_plate</a></p>
 <p>One point of clarification here is the <span class="math notranslate nohighlight">\(\epsilon\)</span> is related to <span class="math notranslate nohighlight">\(z\)</span>, the supercompressibility factor mentioned in the Lecture Section.  However, they are different concepts.  The expansibility factor accounts for the density change of a gas due to pressure reduction as it passes through the orifice. It corrects for the assumption of constant density used in the simplified flow rate equations. The term “supercompressibility factor” is sometimes used interchangeably with the expansibility factor, but it can also refer more broadly to the factor used to correct for real gas behavior compared to ideal gas behavior.</p>
 <p>One important note to make is that the permanent loss in pressure drop caused by the orifice plate is often small due to the low density of natural gas compared to more viscous fluids (mostly liquids).  Because of this, it is often seen that the pressure drop is measured in a unit called inches of water column. The conversion from psi to inches of water column is about 27.7 inches of water column to 1 psia.</p>
+<p>A last key observation about the equation is that the flow rate is proportional to the square root of the differential pressure.  This leads to unique measurement challenges at both low and high differential pressures.  At low operating DP values, a small change in DP can lead to a large change in flow rate, meaning any measurement uncertainty in the transmitter is amplified at these low values and create higher than allowable inaccuracies in measurement.  At the high end of operating DP values, for a small change in flow rate, a large change in differential pressure will have to occur.  This can lead to higher than desired non-recoverable pressure drops and begin to bend the plate.  While precise values will be up to the operator, a general rule of thumb for operating differential pressure of orifice meters is 10-100 inches of water column.</p>
+<figure class="align-default" id="flow-rate-vs-dp">
+<img alt="../_images/Flow_Rate_vs_DP.png" src="../_images/Flow_Rate_vs_DP.png" />
+<figcaption>
+<p><span class="caption-number">Fig. 4 </span><span class="caption-text">Flow Rate vs Operating Differential Pressure</span><a class="headerlink" href="#flow-rate-vs-dp" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
 </section>
 <section id="uni-directional-vs-bi-directional-plates">
 <h2>Uni-Directional vs Bi-Directional Plates<a class="headerlink" href="#uni-directional-vs-bi-directional-plates" title="Permalink to this heading">#</a></h2>
@@ -574,13 +581,13 @@ Maximum \: Tolerance = 0.005(D_o-D_i)
 <figure class="align-default" id="assembled-3d-printed-orifice-meter">
 <a class="reference internal image-reference" href="../_images/Assembled-3D-Printed-Orifice-Meter.jpg"><img alt="../_images/Assembled-3D-Printed-Orifice-Meter.jpg" src="../_images/Assembled-3D-Printed-Orifice-Meter.jpg" style="height: 300px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 4 </span><span class="caption-text">Assembled 3D Printed Orifice Meter</span><a class="headerlink" href="#assembled-3d-printed-orifice-meter" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 5 </span><span class="caption-text">Assembled 3D Printed Orifice Meter</span><a class="headerlink" href="#assembled-3d-printed-orifice-meter" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <figure class="align-default" id="disassembled-3d-printed-orifice-meter">
 <a class="reference internal image-reference" href="../_images/Disassembled-3D-Printed-Orifice-Meter.jpg"><img alt="../_images/Disassembled-3D-Printed-Orifice-Meter.jpg" src="../_images/Disassembled-3D-Printed-Orifice-Meter.jpg" style="height: 300px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 5 </span><span class="caption-text">Disassembled 3D Printed Orifice Meter</span><a class="headerlink" href="#disassembled-3d-printed-orifice-meter" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 6 </span><span class="caption-text">Disassembled 3D Printed Orifice Meter</span><a class="headerlink" href="#disassembled-3d-printed-orifice-meter" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </section>

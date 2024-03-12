@@ -97,6 +97,10 @@ This portion rounds out the basic calculations for solving for Dekatherms, the u
 
 ## A Broader Perspective on Gas Quality
 
+```{note}
+The following section is the authors adaptation and interpretation of a talk given at the Appalachian Corrosion Short Course originally presented by Alysia Salva.
+```
+
 Before the early 2000's, natural gas consisted of a very predictable composition, often being extracted from relatively shallow wells.  This gas typically contained consistent, high levels of methane, often over 90%, with minimal impurities such as carbon dioxide and nitrogen.  This created a reliable set of operations to process this gas and deliver a consistent product to end customers.
 
 However, this consistency did not hold forever. In the 2000's a shale gas boom happened in the United States from the technological innovations in horizontal drilling and fracking.  This flooded the pipelines with shale gas, which was significantly different than the conventional gas from shallow wells that had preceded.  Shale gas has more varied composition than conventional natural gas, often containing higher concentrations of heavier hydrocarbons like ethane, propane, and butanes.  This makes the processing of the gas more complex as additional units need to be added to the processing plant in order to deliver the same quality of gas customers have come to expect.
