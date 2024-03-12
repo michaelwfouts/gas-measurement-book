@@ -99,6 +99,10 @@ name: master-meter
 Master Meter Testing Configuration
 ```
 
+The diagram above represents a simplified version of this testing procedure, but the most common real world implementation of this is via a rotary meter loop to test rotary meters, as seen in the following source.
+
+https://asgmt.com/wp-content/uploads/2018/05/023.pdf
+
 2. Sonic Nozzle - A sonic nozzle prover is a gas flow calibration standard that utilizes a smoothly contoured convergent-divergent nozzle to create a choked sonic flow. Typically, natural gas from the pipeline is used for testing.  This gas accelerates through the narrowed throat of the nozzle, reaching sonic velocity, a constant given gas conditions.  This creates a fixed flow area and constant mass flow rate dependent only on upstream pressure and temperature. The exact flow is calculated from the inlet gas conditions based on rigorous models.  A figure of this configuration can be seen below.
 
 ```{figure} ../Assets/sonic-nozzle-prover.png

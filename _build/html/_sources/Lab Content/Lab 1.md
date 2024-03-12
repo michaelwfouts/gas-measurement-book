@@ -81,6 +81,15 @@ One point of clarification here is the $\epsilon$ is related to $z$, the superco
 
 One important note to make is that the permanent loss in pressure drop caused by the orifice plate is often small due to the low density of natural gas compared to more viscous fluids (mostly liquids).  Because of this, it is often seen that the pressure drop is measured in a unit called inches of water column. The conversion from psi to inches of water column is about 27.7 inches of water column to 1 psia.
 
+A last key observation about the equation is that the flow rate is proportional to the square root of the differential pressure.  This leads to unique measurement challenges at both low and high differential pressures.  At low operating DP values, a small change in DP can lead to a large change in flow rate, meaning any measurement uncertainty in the transmitter is amplified at these low values and create higher than allowable inaccuracies in measurement.  At the high end of operating DP values, for a small change in flow rate, a large change in differential pressure will have to occur.  This can lead to higher than desired non-recoverable pressure drops and begin to bend the plate.  While precise values will be up to the operator, a general rule of thumb for operating differential pressure of orifice meters is 10-100 inches of water column.
+
+```{figure} ../Assets/Flow_Rate_vs_DP.png
+---
+name: Flow_Rate_vs_DP
+---
+Flow Rate vs Operating Differential Pressure
+```
+
 ## Uni-Directional vs Bi-Directional Plates
 The distinction between beveling in unidirectional and bidirectional orifice plates is primarily due to their intended direction of flow measurement and the need to optimize flow conditions for accuracy and equipment longevity. Here's a closer look at why these design choices are made:
 ### Unidirectional Orifice Plates
