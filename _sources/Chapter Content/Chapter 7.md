@@ -101,7 +101,7 @@ mA \: Reading = 8.889 mA \approx \textbf{8.89 mA}
 Now understanding how the 4-20 mA current loop can be related to the measurements we take of the physical world, let's apply this knowledge with the content from the previous chapters to go through an example that covers all the bases of measurement from field equipment to final dollar amount.
 
 ```{admonition} **Problem:**  
-The temperature transmitter is spanned from -40°F to 140°F and is outputting 13mA. Looking at your meter, your as found index reading is 110 MACF and your as left is 134 MACF.  The gas chromatograph is reading 1050 BTU/SCF, the supercompressibility is z = 1.11, and the price of natural gas is $3.20 per dekatherm. What is the dollar amount of gas that has flown during that time? Assume you are operating in the Appalachian Basin Region.
+A pressure transmitter spanned from 0-1000 psig has a 4-20 mA current loop outputting 17mA. The temperature transmitter is spanned from -40°F to 140°F and is outputting 13mA. Looking at your meter, your as found index reading is 110 MACF and your as left is 134 MACF.  The gas chromatograph is reading 1050 BTU/SCF, the supercompressibility is z = 1.11, and the price of natural gas is $3.20 per dekatherm. What is the dollar amount of gas that has flown during that time? Assume you are operating in the Appalachian Basin Region.
 ```
 
 ```{admonition} **Solution:**  
