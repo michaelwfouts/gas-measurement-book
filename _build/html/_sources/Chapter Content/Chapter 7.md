@@ -97,17 +97,29 @@ mA \: Reading = 8.889 mA \approx \textbf{8.89 mA}
 \end{gather*}
 ``` 
 
-### Example (Basic Transmitter Reading Calculation)  
+### Example (End to End Gas Measurement Calculation)  
+Now understanding how the 4-20 mA current loop can be related to the measurements we take of the physical world, let's apply this knowledge with the content from the previous chapters to go through an example that covers all the bases of measurement from field equipment to final dollar amount.
+
 ```{admonition} **Problem:**  
-A pressure transmitter spanned from 0-1000 psig has a 4-20 mA current loop that is outputting 17mA.  What pressure does this indicate?
+The temperature transmitter is spanned from -40°F to 140°F and is outputting 13mA. Looking at your meter, your as found index reading is 110 MACF and your as left is 134 MACF.  The gas chromatograph is reading 1050 BTU/SCF, the supercompressibility is z = 1.11, and the price of natural gas is $3.20 per dekatherm. What is the dollar amount of gas that has flown during that time? Assume you are operating in the Appalachian Basin Region.
 ```
 
 ```{admonition} **Solution:**  
 :class: tip, dropdown  
-This problem can be simply solved using the equation above knowing the following values.
+This problem has several components to it, but can be broken down into a series of problems that have been solved in previous chapters.  Knowing that we are solving for a dollar amount, we can work backwards and see we need to find the number of dekatherms flowing through the meter.  To get a dekatherm number, we need standard cubic footage.  To get standard cubic footage, we need a pressure, temperature and volume.  The pressure and temperature can be calculated via the mA current signals and the volume can be read off the meter.  Writing out the plan of attack in order, we have:  
+1. Calculate the Pressure and Temperature  
+2. Calculate the ACF flown through the meter  
+3. Calculate the SCF flown through the meter  
+4. Calculate the Dekatherm flown through the meter  
+5. Calculate the Overall Gas Price  
+
+***NOTE***: For this problem, rounding will occur at the end of each step, but for the most accurate results, do not round intermediate answers.
+
+**Step 1:**
+This subproblem can be simply solved using the equation previously mentioned in this chapter.  For pressure, the calculation is as follows:  
 
 \begin{gather*}
-Transmitter \: Reading = ? \\
+Pressure \: Transmitter \: Reading = ? \\
 mA \: Reading = 17mA \\
 Low \: Span = 0 \: psig \\
 High \: Span = 1000 \: psig \\
@@ -115,11 +127,95 @@ High \: Span = 1000 \: psig \\
 
 \begin{gather*}
 \\
-\frac{mA \: Reading - 4 mA}{16 mA} = \frac{Transmitter \: Reading - Low \: Span}{High \: Span - Low \: Span} \\
+\frac{mA \: Reading - 4 mA}{16 mA} = \frac{Pressure \: Transmitter \: Reading - Low \: Span}{High \: Span - Low \: Span} \\
 \\
-\frac{17 mA - 4 mA}{16 mA} = \frac{Transmitter \: Reading - 0 \: psig}{1000 \: psig - 0 \: psig} \\
+\frac{17 mA - 4 mA}{16 mA} = \frac{Pressure \: Transmitter \: Reading - 0 \: psig}{1000 \: psig - 0 \: psig} \\
 \\
-Transmitter \: Reading = 812.5 \: psig \approx \textbf{813 psig}
+Pressure \: Transmitter \: Reading = 812.5 \: psig \approx 813 psig
+\end{gather*}
+
+For temperature, the calculation is as follows:  
+\begin{gather*}
+Temperature \: Transmitter \: Reading = ? \\
+mA \: Reading = 13mA \\
+Low \: Span = -40 \: °F \\
+High \: Span = 140 \: °F \\
+\end{gather*}
+
+\begin{gather*}
+\\
+\frac{mA \: Reading - 4 mA}{16 mA} = \frac{Temperature \: Transmitter \: Reading - Low \: Span}{High \: Span - Low \: Span} \\
+\\
+\frac{13 mA - 4 mA}{16 mA} = \frac{Temperature \: Transmitter \: Reading - -40 \: °F}{140 \: °F - -40 \: °F} \\
+\\
+Temperature \: Transmitter \: Reading = 61.25 \: °F \approx 61.3 °F
+\end{gather*}
+
+**Step 2:**  
+The ACF flown through the meter during this time can be simply calculated by taking the difference of the index values.
+\begin{gather*}
+As \: Found \: Index \: Reading = 110 \: MACF \\
+As \: Left \: Index \: Reading = 134 \: MACF \\
+\end{gather*}
+
+\begin{gather*}
+Volume \: (ACF) = As \: Left \: Index \: Reading \: - \: As \: Left \: Index \: Reading
+\\
+Volume \: (ACF) = 134 \: MACF - 110 \: MACF\\ 
+\\
+Volume \: (ACF) = 24 \: MACF = 24,000 \: ACF\\
+\end{gather*}
+
+**Step 3:**  
+To calculate the SCF, we can use the combined gas law for real gases as described in Chapter 6.
+\begin{gather*}
+V_1 = 24,000 ACF \\
+
+T_1 = 61.3°F = 520.97°R \\
+
+P_1 = 813 psig = 827.4 psia
+\end{gather*} 
+
+\begin{gather*}
+V_2 = ? \\
+
+T_2 = 60°F = 519.67°R \\
+
+P_2 = 14.73 psia
+
+z = 1.11
+\end{gather*} 
+
+\begin{gather*}
+\\
+V_2 (SCF) = V_1 (ACF) \frac{P_1}{P_2} \frac{T_2}{T_1} z \\
+
+V_2 (SCF) = 24,000 ACF \cdot \frac{827.4 psia}{14.73 psia} \cdot \frac{519.67°R}{520.97°R} \cdot 1.11 \\
+
+V_2 = 1,492,664 SCF \approx 1,490,000 SCF
+\end{gather*} 
+
+**Step 4:**  
+To calculate the total number of dekatherms this equates to, we can use the equation given in chapter 5.
+
+\begin{gather*}
+\\
+Dekatherm = \frac{Standard \: Volume \: (SCF) \cdot Energy \: Density \: (\frac{BTU}{SCF})}{1,000,000}
+\\
+\\
+Dekatherm = \frac{1,490,000 SCF \cdot 1050 \tfrac{BTU}{SCF}}{1,000,000}
+\\
+\\
+Dekatherm = 1,564.5 Dth \approx 1,560 Dth
+\end{gather*}
+
+**Step 5:**  
+Finally, we can use our price per dekatherm in order to calculate the total price of gas flowing through the meter.
+
+\begin{gather*}
+Total \: Price = Dekatherm \cdot \tfrac{\$}{Dekatherm} = 1,560 Dth \cdot \$3.20 \: per \: Dth \\
+\\
+Total \: Price = $4,992 Dth \approx \textbf{\$4,990}
 \end{gather*}
 ``` 
 
@@ -128,8 +224,8 @@ Transmitter \: Reading = 812.5 \: psig \approx \textbf{813 psig}
 
 2. What is the temperature reading on a temperature transmitter that is spanned from -20 to 140°F and has a 4-20 mA current loop currently reading 6 mA?
 
-3. A rotary meter was operating at 100 psig and 90°F.  From reading the index, you gather that 22,300 actual cubic feet have flown through the meter during a month's time.
-    a. How much gas in standard cubic feet has flown through this meter?  Ignore supercompressibility and assume you are operating in the Appalachian Basin Region.
+3. A rotary meter was operating at 100 psig and 90°F.  From reading the index, you gather that 22,300 actual cubic feet have flown through the meter during a month's time.  
+    a. How much gas in standard cubic feet has flown through this meter?  Ignore supercompressibility and assume you are operating in the Appalachian Basin Region.  
     b. During your testing, you found that the pressure transmitter was reading high by 0.5mA on it's 4-20mA current loop (example, it was reading 8 mA when in reality it should have been 7.5mA).  If the pressure that was read (the incorrect pressure) was 100 psig for the entire month on a static pressure transmitter spanned from 0-500 psig, what is the new volume in standard cubic feet once the adjustment for the static pressure issue is taken into consideration?
 
 4. A rotary meter is has a pressure transmitter spanned from 0 to 1000 psig and is currently reading 15.2 mA on its 4-20 circuit.  It also has a temperature transmitter that is spanned from 0-150 °F and is currently reading 9.7 mA.  From reading the index over a 24 hour period, you find that when you first read the index, it has an accumulated volume of 150,423 ACF and 219,847 ACF when you return later.  The gas chromatograph tells you that the energy density is 1078 BTU/SCF. How much energy in dekatherms has flown through this meter?  Please make sure to factor in supercompressibility.  Assume that z is 1.128 and you are operating in the Appalachian Basin.

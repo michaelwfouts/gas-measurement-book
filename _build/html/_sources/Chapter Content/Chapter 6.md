@@ -72,6 +72,7 @@ z = 1.003
 Knowing all the needed variables, we can solve for $V_2$.
 
 \begin{gather*}
+\\
 V_2 (SCF) = V_1 (ACF) \frac{P_1}{P_2} \frac{T_2}{T_1} z \\
 
 V_2 (SCF) = 20 ACF \cdot \frac{34.4 psia}{14.73 psia} \cdot \frac{519.67°R}{509.67°R} \cdot 1.003 \\
