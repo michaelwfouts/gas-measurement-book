@@ -63,7 +63,7 @@ Turbulence refers to unsteady vortices that appear in the meter.  Typically, flo
     b. Profile  
     c. Symmetry  
     d. SOS (all paths)  
-    e. Gain (all paths)  
+    e. Gain (all transducers)  
     f. Performance (all paths)  
     g. Signal to Noise Ratio or SNR (all transducers)  
     h. Turbulence (all paths)  
